@@ -1,0 +1,9 @@
+{
+  "input": "outputs/full_attempt/candidates.jsonl",
+  "processed": 2057,
+  "unique_classes": 2055,
+  "raw_matrix_cache_size": 2057,
+  "distinct_values": 86,
+  "elapsed_seconds": 0.22448124992661178,
+  "done": true
+}

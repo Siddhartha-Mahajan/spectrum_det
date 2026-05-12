@@ -1,0 +1,32 @@
+{
+  "order": 13,
+  "threshold_normalized": 2173,
+  "minimal": 1,
+  "phi": [1, 5, 9],
+  "nodes_tested": 2134,
+  "recursion_calls": 834,
+  "gamma_tests": 5273,
+  "lexmax_checks": 898,
+  "lexmax_inconclusive": 0,
+  "lexmax_permutations_seen": 6281,
+  "candidates_written": 15,
+  "current_depth": 13,
+  "max_depth_seen": 13,
+  "stopped_by_cap": false,
+  "elapsed_seconds": 0.0328821,
+  "levels": [
+    {"level": 1, "tested": 0, "accepted": 0, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 0, "pruned_pd": 0, "pruned_bound": 0, "pruned_lexmax": 0, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 2, "tested": 3, "accepted": 3, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 0, "pruned_pd": 0, "pruned_bound": 0, "pruned_lexmax": 0, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 3, "tested": 16, "accepted": 7, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 2, "pruned_pd": 0, "pruned_bound": 5, "pruned_lexmax": 2, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 4, "tested": 33, "accepted": 18, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 2, "pruned_pd": 0, "pruned_bound": 9, "pruned_lexmax": 4, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 5, "tested": 96, "accepted": 34, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 8, "pruned_pd": 0, "pruned_bound": 45, "pruned_lexmax": 9, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 6, "tested": 131, "accepted": 56, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 12, "pruned_pd": 0, "pruned_bound": 51, "pruned_lexmax": 12, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 7, "tested": 187, "accepted": 83, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 42, "pruned_pd": 0, "pruned_bound": 53, "pruned_lexmax": 9, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 8, "tested": 245, "accepted": 107, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 55, "pruned_pd": 0, "pruned_bound": 73, "pruned_lexmax": 10, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 9, "tested": 275, "accepted": 121, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 96, "pruned_pd": 0, "pruned_bound": 55, "pruned_lexmax": 3, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 10, "tested": 279, "accepted": 131, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 120, "pruned_pd": 0, "pruned_bound": 27, "pruned_lexmax": 1, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 11, "tested": 291, "accepted": 135, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 144, "pruned_pd": 0, "pruned_bound": 12, "pruned_lexmax": 0, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 12, "tested": 287, "accepted": 138, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 140, "pruned_pd": 0, "pruned_bound": 9, "pruned_lexmax": 0, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 13, "tested": 291, "accepted": 15, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 149, "pruned_pd": 0, "pruned_bound": 0, "pruned_lexmax": 0, "full_square_candidates": 15, "full_below_threshold": 0, "full_not_square": 127}
+  ]
+}

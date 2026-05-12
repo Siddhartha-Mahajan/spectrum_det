@@ -1,0 +1,9 @@
+{
+  "input": "outputs/diagnostic_skip_lexmax_full/candidates.jsonl",
+  "processed": 12245,
+  "unique_classes": 703,
+  "raw_matrix_cache_size": 12245,
+  "distinct_values": 115,
+  "elapsed_seconds": 0.8351809580344707,
+  "done": true
+}

@@ -1,0 +1,33 @@
+{
+  "order": 13,
+  "threshold_normalized": 2173,
+  "minimal": 1,
+  "phi_mode": "congruent",
+  "phi": [1, -3, 5, -7, 9, -11],
+  "nodes_tested": 2000000,
+  "recursion_calls": 305282,
+  "gamma_tests": 48349426,
+  "lexmax_checks": 346170,
+  "lexmax_inconclusive": 6,
+  "lexmax_permutations_seen": 101558083,
+  "candidates_written": 653,
+  "current_depth": 13,
+  "max_depth_seen": 13,
+  "stopped_by_cap": true,
+  "elapsed_seconds": 173.773,
+  "levels": [
+    {"level": 1, "tested": 0, "accepted": 0, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 0, "pruned_pd": 0, "pruned_bound": 0, "pruned_lexmax": 0, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 2, "tested": 3, "accepted": 3, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 0, "pruned_pd": 0, "pruned_bound": 0, "pruned_lexmax": 0, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 3, "tested": 15, "accepted": 7, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 5, "pruned_pd": 0, "pruned_bound": 0, "pruned_lexmax": 3, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 4, "tested": 31, "accepted": 21, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 5, "pruned_pd": 0, "pruned_bound": 0, "pruned_lexmax": 5, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 5, "tested": 122, "accepted": 62, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 19, "pruned_pd": 0, "pruned_bound": 5, "pruned_lexmax": 36, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 6, "tested": 420, "accepted": 229, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 24, "pruned_pd": 0, "pruned_bound": 35, "pruned_lexmax": 132, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 7, "tested": 2066, "accepted": 924, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 104, "pruned_pd": 0, "pruned_bound": 415, "pruned_lexmax": 623, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 8, "tested": 9860, "accepted": 4029, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 280, "pruned_pd": 0, "pruned_bound": 3703, "pruned_lexmax": 1848, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 9, "tested": 47750, "accepted": 15267, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 1140, "pruned_pd": 0, "pruned_bound": 26632, "pruned_lexmax": 4711, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 10, "tested": 168289, "accepted": 44826, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 4454, "pruned_pd": 1, "pruned_bound": 110313, "pruned_lexmax": 8695, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 11, "tested": 410983, "accepted": 94430, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 16937, "pruned_pd": 1, "pruned_bound": 287511, "pruned_lexmax": 12104, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 12, "tested": 642513, "accepted": 145483, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 49864, "pruned_pd": 1, "pruned_bound": 435124, "pruned_lexmax": 12041, "full_square_candidates": 0, "full_below_threshold": 0, "full_not_square": 0},
+    {"level": 13, "tested": 717948, "accepted": 653, "pruned_structure": 0, "pruned_row_order": 0, "pruned_block_order": 114952, "pruned_pd": 4, "pruned_bound": 0, "pruned_lexmax": 38, "full_square_candidates": 653, "full_below_threshold": 1420, "full_not_square": 600881}
+  ]
+}
