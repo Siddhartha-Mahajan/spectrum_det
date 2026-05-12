@@ -1,0 +1,12 @@
+{
+  "is_full_booz_replication": false,
+  "supplied_gram_available_unique_count": 130,
+  "supplied_gram_requested_count": 0,
+  "supplied_gram_decomposed_count": 0,
+  "supplied_gram_aborted_decomposition_count": 0,
+  "recovered_distinct_determinant_count": 0,
+  "candidate_minor_profile_total_tested": 20033,
+  "candidate_minor_profile_final_frontier_size": 1441,
+  "candidate_minor_profile_stopped_by_cap": true,
+  "blocker": "This bounded profiler lacks BOOZ allowable-vector generation, equivalence canonicalization, and the enhanced Kounias-Moyssiadis pruning needed for a complete 8321-candidate order-13 enumeration."
+}

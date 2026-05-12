@@ -1,0 +1,12 @@
+{
+  "is_full_booz_replication": false,
+  "supplied_gram_available_unique_count": 130,
+  "supplied_gram_requested_count": 130,
+  "supplied_gram_decomposed_count": 0,
+  "supplied_gram_aborted_decomposition_count": 130,
+  "recovered_distinct_determinant_count": 130,
+  "candidate_minor_profile_total_tested": 0,
+  "candidate_minor_profile_final_frontier_size": 0,
+  "candidate_minor_profile_stopped_by_cap": false,
+  "blocker": "Profiler skipped for this run."
+}

@@ -1,0 +1,26 @@
+{
+  "source": "/Users/siddhartha/Lossfunk/spectrum_det/agentic_sprints/sprint_3/outputs/n13_witnesses.json",
+  "available_unique_gram_count": 130,
+  "requested_gram_count": 130,
+  "completed_gram_count": 130,
+  "valid_candidate_gram_count_so_far": 130,
+  "decomposed_count_so_far": 0,
+  "aborted_decomposition_count_so_far": 130,
+  "recovered_distinct_determinant_count_so_far": 130,
+  "total_decomposition_nodes_so_far": 0,
+  "elapsed_seconds_so_far": 0.6835351248737425,
+  "last_record": {
+    "gram_id": "130",
+    "normalized_values_from_witnesses": [
+      3645
+    ],
+    "validation_valid": true,
+    "validation_errors": [],
+    "normalized_determinant_from_gram": 3645,
+    "source_decomposition_verified": true,
+    "decomposition_status": "aborted",
+    "decomposition_nodes": 0,
+    "decomposition_verified": false,
+    "decomposition_elapsed_seconds": 0.004371291026473045
+  }
+}

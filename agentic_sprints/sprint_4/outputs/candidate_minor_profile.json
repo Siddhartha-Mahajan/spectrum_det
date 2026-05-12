@@ -1,0 +1,59 @@
+{
+  "order": 13,
+  "allowed_offdiagonal_entries": [
+    -11,
+    -7,
+    -3,
+    1
+  ],
+  "max_depth_requested": 8,
+  "max_generated": 20000,
+  "stopped_by_cap": true,
+  "total_tested": 20033,
+  "final_frontier_size": 1441,
+  "levels": [
+    {
+      "level": 1,
+      "frontier": 1,
+      "accepted": 1,
+      "tested": 1,
+      "pruned_pd": 0,
+      "pruned_hadamard_bound": 0
+    },
+    {
+      "level": 2,
+      "frontier": 4,
+      "accepted": 4,
+      "tested": 4,
+      "pruned_pd": 0,
+      "pruned_hadamard_bound": 0
+    },
+    {
+      "level": 3,
+      "frontier": 26,
+      "accepted": 26,
+      "tested": 64,
+      "pruned_pd": 20,
+      "pruned_hadamard_bound": 18
+    },
+    {
+      "level": 4,
+      "frontier": 385,
+      "accepted": 385,
+      "tested": 1664,
+      "pruned_pd": 894,
+      "pruned_hadamard_bound": 385
+    },
+    {
+      "level": 5,
+      "frontier": 1441,
+      "accepted": 1441,
+      "tested": 18300,
+      "pruned_pd": 14409,
+      "pruned_hadamard_bound": 2450
+    }
+  ],
+  "elapsed_seconds": 0.0752735419664532,
+  "is_complete_gram_enumeration": false,
+  "why_not_complete": "This bounded profiler lacks BOOZ allowable-vector generation, equivalence canonicalization, and the enhanced Kounias-Moyssiadis pruning needed for a complete 8321-candidate order-13 enumeration."
+}

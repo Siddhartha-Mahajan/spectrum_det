@@ -1,0 +1,1965 @@
+{
+  "source": "/Users/siddhartha/Lossfunk/spectrum_det/agentic_sprints/sprint_3/outputs/n13_witnesses.json",
+  "available_unique_gram_count": 130,
+  "requested_gram_count": 130,
+  "valid_candidate_gram_count": 130,
+  "decomposed_count": 0,
+  "aborted_decomposition_count": 130,
+  "recovered_distinct_determinants": [
+    2174,
+    2175,
+    2176,
+    2177,
+    2178,
+    2179,
+    2180,
+    2181,
+    2182,
+    2183,
+    2184,
+    2185,
+    2187,
+    2188,
+    2189,
+    2190,
+    2191,
+    2192,
+    2193,
+    2194,
+    2195,
+    2196,
+    2199,
+    2200,
+    2201,
+    2202,
+    2205,
+    2208,
+    2210,
+    2211,
+    2214,
+    2215,
+    2216,
+    2217,
+    2218,
+    2220,
+    2221,
+    2222,
+    2223,
+    2224,
+    2225,
+    2226,
+    2228,
+    2229,
+    2230,
+    2232,
+    2233,
+    2235,
+    2238,
+    2240,
+    2241,
+    2243,
+    2244,
+    2245,
+    2247,
+    2248,
+    2250,
+    2253,
+    2256,
+    2258,
+    2259,
+    2260,
+    2262,
+    2264,
+    2265,
+    2267,
+    2268,
+    2271,
+    2272,
+    2274,
+    2277,
+    2280,
+    2283,
+    2286,
+    2288,
+    2292,
+    2295,
+    2296,
+    2304,
+    2307,
+    2312,
+    2313,
+    2316,
+    2319,
+    2320,
+    2322,
+    2325,
+    2328,
+    2331,
+    2334,
+    2336,
+    2340,
+    2343,
+    2344,
+    2349,
+    2352,
+    2355,
+    2360,
+    2361,
+    2367,
+    2368,
+    2370,
+    2373,
+    2376,
+    2385,
+    2394,
+    2400,
+    2403,
+    2406,
+    2421,
+    2430,
+    2432,
+    2439,
+    2457,
+    2472,
+    2484,
+    2496,
+    2511,
+    2520,
+    2538,
+    2560,
+    2583,
+    2592,
+    2619,
+    2646,
+    2673,
+    2835,
+    2916,
+    3159,
+    3645
+  ],
+  "recovered_distinct_determinant_count": 130,
+  "total_decomposition_nodes": 0,
+  "elapsed_seconds": 0.6835903748869896,
+  "records": [
+    {
+      "gram_id": "1",
+      "normalized_values_from_witnesses": [
+        2174
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2174,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004583082860335708
+    },
+    {
+      "gram_id": "2",
+      "normalized_values_from_witnesses": [
+        2175
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2175,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004349250113591552
+    },
+    {
+      "gram_id": "3",
+      "normalized_values_from_witnesses": [
+        2176
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2176,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004409542074427009
+    },
+    {
+      "gram_id": "4",
+      "normalized_values_from_witnesses": [
+        2177
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2177,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004488667007535696
+    },
+    {
+      "gram_id": "5",
+      "normalized_values_from_witnesses": [
+        2178
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2178,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004493375075981021
+    },
+    {
+      "gram_id": "6",
+      "normalized_values_from_witnesses": [
+        2179
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2179,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004276792053133249
+    },
+    {
+      "gram_id": "7",
+      "normalized_values_from_witnesses": [
+        2180
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2180,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004275667015463114
+    },
+    {
+      "gram_id": "8",
+      "normalized_values_from_witnesses": [
+        2181
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2181,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004900542087852955
+    },
+    {
+      "gram_id": "9",
+      "normalized_values_from_witnesses": [
+        2182
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2182,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004538124892860651
+    },
+    {
+      "gram_id": "10",
+      "normalized_values_from_witnesses": [
+        2183
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2183,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004740833071991801
+    },
+    {
+      "gram_id": "11",
+      "normalized_values_from_witnesses": [
+        2184
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2184,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0056439589243382215
+    },
+    {
+      "gram_id": "12",
+      "normalized_values_from_witnesses": [
+        2185
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2185,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004780833842232823
+    },
+    {
+      "gram_id": "13",
+      "normalized_values_from_witnesses": [
+        2187
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2187,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004645166220143437
+    },
+    {
+      "gram_id": "14",
+      "normalized_values_from_witnesses": [
+        2188
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2188,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0049063339829444885
+    },
+    {
+      "gram_id": "15",
+      "normalized_values_from_witnesses": [
+        2189
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2189,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.005583874881267548
+    },
+    {
+      "gram_id": "16",
+      "normalized_values_from_witnesses": [
+        2190
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2190,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.005027333041653037
+    },
+    {
+      "gram_id": "17",
+      "normalized_values_from_witnesses": [
+        2191
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2191,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004690959118306637
+    },
+    {
+      "gram_id": "18",
+      "normalized_values_from_witnesses": [
+        2192
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2192,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004438374890014529
+    },
+    {
+      "gram_id": "19",
+      "normalized_values_from_witnesses": [
+        2193
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2193,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.007412625011056662
+    },
+    {
+      "gram_id": "20",
+      "normalized_values_from_witnesses": [
+        2194
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2194,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.011440584203228354
+    },
+    {
+      "gram_id": "21",
+      "normalized_values_from_witnesses": [
+        2195
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2195,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.011174874845892191
+    },
+    {
+      "gram_id": "22",
+      "normalized_values_from_witnesses": [
+        2196
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2196,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.00630687503144145
+    },
+    {
+      "gram_id": "23",
+      "normalized_values_from_witnesses": [
+        2199
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2199,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.007246666820719838
+    },
+    {
+      "gram_id": "24",
+      "normalized_values_from_witnesses": [
+        2200
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2200,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004424416925758123
+    },
+    {
+      "gram_id": "25",
+      "normalized_values_from_witnesses": [
+        2201
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2201,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.00443324982188642
+    },
+    {
+      "gram_id": "26",
+      "normalized_values_from_witnesses": [
+        2202
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2202,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004665041109547019
+    },
+    {
+      "gram_id": "27",
+      "normalized_values_from_witnesses": [
+        2205
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2205,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004406708991155028
+    },
+    {
+      "gram_id": "28",
+      "normalized_values_from_witnesses": [
+        2208
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2208,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004498458933085203
+    },
+    {
+      "gram_id": "29",
+      "normalized_values_from_witnesses": [
+        2210
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2210,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004468791885301471
+    },
+    {
+      "gram_id": "30",
+      "normalized_values_from_witnesses": [
+        2211
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2211,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004367082845419645
+    },
+    {
+      "gram_id": "31",
+      "normalized_values_from_witnesses": [
+        2214
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2214,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.00436950009316206
+    },
+    {
+      "gram_id": "32",
+      "normalized_values_from_witnesses": [
+        2215
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2215,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004541375208646059
+    },
+    {
+      "gram_id": "33",
+      "normalized_values_from_witnesses": [
+        2216
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2216,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.00444233394227922
+    },
+    {
+      "gram_id": "34",
+      "normalized_values_from_witnesses": [
+        2217
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2217,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0044070829171687365
+    },
+    {
+      "gram_id": "35",
+      "normalized_values_from_witnesses": [
+        2218
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2218,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004556500120088458
+    },
+    {
+      "gram_id": "36",
+      "normalized_values_from_witnesses": [
+        2220
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2220,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004393833922222257
+    },
+    {
+      "gram_id": "37",
+      "normalized_values_from_witnesses": [
+        2221
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2221,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004402124788612127
+    },
+    {
+      "gram_id": "38",
+      "normalized_values_from_witnesses": [
+        2222
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2222,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004516208078712225
+    },
+    {
+      "gram_id": "39",
+      "normalized_values_from_witnesses": [
+        2223
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2223,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004410749999806285
+    },
+    {
+      "gram_id": "40",
+      "normalized_values_from_witnesses": [
+        2224
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2224,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0043949170503765345
+    },
+    {
+      "gram_id": "41",
+      "normalized_values_from_witnesses": [
+        2225
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2225,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004371917108073831
+    },
+    {
+      "gram_id": "42",
+      "normalized_values_from_witnesses": [
+        2226
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2226,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004473582841455936
+    },
+    {
+      "gram_id": "43",
+      "normalized_values_from_witnesses": [
+        2228
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2228,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004462708020582795
+    },
+    {
+      "gram_id": "44",
+      "normalized_values_from_witnesses": [
+        2229
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2229,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004380665952339768
+    },
+    {
+      "gram_id": "45",
+      "normalized_values_from_witnesses": [
+        2230
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2230,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.00439370796084404
+    },
+    {
+      "gram_id": "46",
+      "normalized_values_from_witnesses": [
+        2232
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2232,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004507542122155428
+    },
+    {
+      "gram_id": "47",
+      "normalized_values_from_witnesses": [
+        2233
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2233,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004364583175629377
+    },
+    {
+      "gram_id": "48",
+      "normalized_values_from_witnesses": [
+        2235
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2235,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004410207970067859
+    },
+    {
+      "gram_id": "49",
+      "normalized_values_from_witnesses": [
+        2238
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2238,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0045499170664697886
+    },
+    {
+      "gram_id": "50",
+      "normalized_values_from_witnesses": [
+        2240
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2240,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004414125112816691
+    },
+    {
+      "gram_id": "51",
+      "normalized_values_from_witnesses": [
+        2241
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2241,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004378166981041431
+    },
+    {
+      "gram_id": "52",
+      "normalized_values_from_witnesses": [
+        2243
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2243,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004679541802033782
+    },
+    {
+      "gram_id": "53",
+      "normalized_values_from_witnesses": [
+        2244
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2244,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004669916816055775
+    },
+    {
+      "gram_id": "54",
+      "normalized_values_from_witnesses": [
+        2245
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2245,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0043961668852716684
+    },
+    {
+      "gram_id": "55",
+      "normalized_values_from_witnesses": [
+        2247
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2247,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004429792053997517
+    },
+    {
+      "gram_id": "56",
+      "normalized_values_from_witnesses": [
+        2248
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2248,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004738165996968746
+    },
+    {
+      "gram_id": "57",
+      "normalized_values_from_witnesses": [
+        2250
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2250,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.00441708299331367
+    },
+    {
+      "gram_id": "58",
+      "normalized_values_from_witnesses": [
+        2253
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2253,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004404541105031967
+    },
+    {
+      "gram_id": "59",
+      "normalized_values_from_witnesses": [
+        2256
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2256,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0045787920244038105
+    },
+    {
+      "gram_id": "60",
+      "normalized_values_from_witnesses": [
+        2258
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2258,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004424040904268622
+    },
+    {
+      "gram_id": "61",
+      "normalized_values_from_witnesses": [
+        2259
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2259,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004354416858404875
+    },
+    {
+      "gram_id": "62",
+      "normalized_values_from_witnesses": [
+        2260
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2260,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004603416891768575
+    },
+    {
+      "gram_id": "63",
+      "normalized_values_from_witnesses": [
+        2262
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2262,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004510208033025265
+    },
+    {
+      "gram_id": "64",
+      "normalized_values_from_witnesses": [
+        2264
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2264,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004324250156059861
+    },
+    {
+      "gram_id": "65",
+      "normalized_values_from_witnesses": [
+        2265
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2265,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.010359040927141905
+    },
+    {
+      "gram_id": "66",
+      "normalized_values_from_witnesses": [
+        2267
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2267,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004499333910644054
+    },
+    {
+      "gram_id": "67",
+      "normalized_values_from_witnesses": [
+        2268
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2268,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004491250030696392
+    },
+    {
+      "gram_id": "68",
+      "normalized_values_from_witnesses": [
+        2271
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2271,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004585291026160121
+    },
+    {
+      "gram_id": "69",
+      "normalized_values_from_witnesses": [
+        2272
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2272,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.00446220813319087
+    },
+    {
+      "gram_id": "70",
+      "normalized_values_from_witnesses": [
+        2274
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2274,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004590291064232588
+    },
+    {
+      "gram_id": "71",
+      "normalized_values_from_witnesses": [
+        2277
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2277,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004460957832634449
+    },
+    {
+      "gram_id": "72",
+      "normalized_values_from_witnesses": [
+        2280
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2280,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004564249888062477
+    },
+    {
+      "gram_id": "73",
+      "normalized_values_from_witnesses": [
+        2283
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2283,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004458459094166756
+    },
+    {
+      "gram_id": "74",
+      "normalized_values_from_witnesses": [
+        2286
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2286,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004678125027567148
+    },
+    {
+      "gram_id": "75",
+      "normalized_values_from_witnesses": [
+        2288
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2288,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0045942089054733515
+    },
+    {
+      "gram_id": "76",
+      "normalized_values_from_witnesses": [
+        2292
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2292,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004542207811027765
+    },
+    {
+      "gram_id": "77",
+      "normalized_values_from_witnesses": [
+        2295
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2295,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004458958050236106
+    },
+    {
+      "gram_id": "78",
+      "normalized_values_from_witnesses": [
+        2296
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2296,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004605500027537346
+    },
+    {
+      "gram_id": "79",
+      "normalized_values_from_witnesses": [
+        2304
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2304,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004457166185602546
+    },
+    {
+      "gram_id": "80",
+      "normalized_values_from_witnesses": [
+        2307
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2307,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004453707952052355
+    },
+    {
+      "gram_id": "81",
+      "normalized_values_from_witnesses": [
+        2312
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2312,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004697124939411879
+    },
+    {
+      "gram_id": "82",
+      "normalized_values_from_witnesses": [
+        2313
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2313,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004534125095233321
+    },
+    {
+      "gram_id": "83",
+      "normalized_values_from_witnesses": [
+        2316
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2316,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004479999886825681
+    },
+    {
+      "gram_id": "84",
+      "normalized_values_from_witnesses": [
+        2319
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2319,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004449457861483097
+    },
+    {
+      "gram_id": "85",
+      "normalized_values_from_witnesses": [
+        2320
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2320,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004632416879758239
+    },
+    {
+      "gram_id": "86",
+      "normalized_values_from_witnesses": [
+        2322
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2322,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004434583010151982
+    },
+    {
+      "gram_id": "87",
+      "normalized_values_from_witnesses": [
+        2325
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2325,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004580292152240872
+    },
+    {
+      "gram_id": "88",
+      "normalized_values_from_witnesses": [
+        2328
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2328,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.00454858411103487
+    },
+    {
+      "gram_id": "89",
+      "normalized_values_from_witnesses": [
+        2331
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2331,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004482791991904378
+    },
+    {
+      "gram_id": "90",
+      "normalized_values_from_witnesses": [
+        2334
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2334,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004589749965816736
+    },
+    {
+      "gram_id": "91",
+      "normalized_values_from_witnesses": [
+        2336
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2336,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004610333126038313
+    },
+    {
+      "gram_id": "92",
+      "normalized_values_from_witnesses": [
+        2340
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2340,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004483874887228012
+    },
+    {
+      "gram_id": "93",
+      "normalized_values_from_witnesses": [
+        2343
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2343,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004569124896079302
+    },
+    {
+      "gram_id": "94",
+      "normalized_values_from_witnesses": [
+        2344
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2344,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.00459454208612442
+    },
+    {
+      "gram_id": "95",
+      "normalized_values_from_witnesses": [
+        2349
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2349,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0045167498756200075
+    },
+    {
+      "gram_id": "96",
+      "normalized_values_from_witnesses": [
+        2352
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2352,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004401041893288493
+    },
+    {
+      "gram_id": "97",
+      "normalized_values_from_witnesses": [
+        2355
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2355,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004459084011614323
+    },
+    {
+      "gram_id": "98",
+      "normalized_values_from_witnesses": [
+        2360
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2360,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.00454762508161366
+    },
+    {
+      "gram_id": "99",
+      "normalized_values_from_witnesses": [
+        2361
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2361,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004603500012308359
+    },
+    {
+      "gram_id": "100",
+      "normalized_values_from_witnesses": [
+        2367
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2367,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004446167033165693
+    },
+    {
+      "gram_id": "101",
+      "normalized_values_from_witnesses": [
+        2368
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2368,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004649999784305692
+    },
+    {
+      "gram_id": "102",
+      "normalized_values_from_witnesses": [
+        2370
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2370,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004784167045727372
+    },
+    {
+      "gram_id": "103",
+      "normalized_values_from_witnesses": [
+        2373
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2373,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004502250114455819
+    },
+    {
+      "gram_id": "104",
+      "normalized_values_from_witnesses": [
+        2376
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2376,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0045675840228796005
+    },
+    {
+      "gram_id": "105",
+      "normalized_values_from_witnesses": [
+        2385
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2385,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004821832990273833
+    },
+    {
+      "gram_id": "106",
+      "normalized_values_from_witnesses": [
+        2394
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2394,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004478124901652336
+    },
+    {
+      "gram_id": "107",
+      "normalized_values_from_witnesses": [
+        2400
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2400,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0045909578911960125
+    },
+    {
+      "gram_id": "108",
+      "normalized_values_from_witnesses": [
+        2403
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2403,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004514375003054738
+    },
+    {
+      "gram_id": "109",
+      "normalized_values_from_witnesses": [
+        2406
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2406,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004574042046442628
+    },
+    {
+      "gram_id": "110",
+      "normalized_values_from_witnesses": [
+        2421
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2421,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004434959031641483
+    },
+    {
+      "gram_id": "111",
+      "normalized_values_from_witnesses": [
+        2430
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2430,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004559542052447796
+    },
+    {
+      "gram_id": "112",
+      "normalized_values_from_witnesses": [
+        2432
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2432,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0045703749638050795
+    },
+    {
+      "gram_id": "113",
+      "normalized_values_from_witnesses": [
+        2439
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2439,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004499166971072555
+    },
+    {
+      "gram_id": "114",
+      "normalized_values_from_witnesses": [
+        2457
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2457,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0046295830979943275
+    },
+    {
+      "gram_id": "115",
+      "normalized_values_from_witnesses": [
+        2472
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2472,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004624583059921861
+    },
+    {
+      "gram_id": "116",
+      "normalized_values_from_witnesses": [
+        2484
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2484,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004535083891823888
+    },
+    {
+      "gram_id": "117",
+      "normalized_values_from_witnesses": [
+        2496
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2496,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0046356660313904285
+    },
+    {
+      "gram_id": "118",
+      "normalized_values_from_witnesses": [
+        2511
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2511,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004703749902546406
+    },
+    {
+      "gram_id": "119",
+      "normalized_values_from_witnesses": [
+        2520
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2520,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004468458006158471
+    },
+    {
+      "gram_id": "120",
+      "normalized_values_from_witnesses": [
+        2538
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2538,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0046572498977184296
+    },
+    {
+      "gram_id": "121",
+      "normalized_values_from_witnesses": [
+        2560
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2560,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004514415981248021
+    },
+    {
+      "gram_id": "122",
+      "normalized_values_from_witnesses": [
+        2583
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2583,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004505374934524298
+    },
+    {
+      "gram_id": "123",
+      "normalized_values_from_witnesses": [
+        2592
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2592,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004395083989948034
+    },
+    {
+      "gram_id": "124",
+      "normalized_values_from_witnesses": [
+        2619
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2619,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004625292029231787
+    },
+    {
+      "gram_id": "125",
+      "normalized_values_from_witnesses": [
+        2646
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2646,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.00451012491248548
+    },
+    {
+      "gram_id": "126",
+      "normalized_values_from_witnesses": [
+        2673
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2673,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004468708066269755
+    },
+    {
+      "gram_id": "127",
+      "normalized_values_from_witnesses": [
+        2835
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2835,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0044129579328000546
+    },
+    {
+      "gram_id": "128",
+      "normalized_values_from_witnesses": [
+        2916
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 2916,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.0044781670439988375
+    },
+    {
+      "gram_id": "129",
+      "normalized_values_from_witnesses": [
+        3159
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 3159,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004385665990412235
+    },
+    {
+      "gram_id": "130",
+      "normalized_values_from_witnesses": [
+        3645
+      ],
+      "validation_valid": true,
+      "validation_errors": [],
+      "normalized_determinant_from_gram": 3645,
+      "source_decomposition_verified": true,
+      "decomposition_status": "aborted",
+      "decomposition_nodes": 0,
+      "decomposition_verified": false,
+      "decomposition_elapsed_seconds": 0.004371291026473045
+    }
+  ]
+}
