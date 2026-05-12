@@ -1,0 +1,32 @@
+From output s37check_all.log3 we find for the equivalence classes:
+
+1 of size 13
+0 of size 12
+0 of size 11
+0 of size 10
+2 of size 9
+5 of size 8
+2 of size 7
+4 of size 6
+7 of size 5
+12 of size 4
+28 of size 3
+103 of size 2
+325 of size 1
+
+making a total of 489 equivalence classes.
+
+Check: 
+1*325+2*103+3*28+4*12+5*7+6*4+7*2+8*5+9*2+13*1 = 807
+is the total number of matrices, and
+1*325+3*103+6*28+10*12+15*7+21*4+28*2+36*5+45*2+91*1 = 1528
+is the total number of pairs considered.
+
+There are 284 different values of the determinant.  
+Most popular are
+
+d = 1200757082375992968 = 648*9^16 (31 times)
+d = 1204463122753696650 = 650*9^16 (30 times)
+
+(these d values are corrected for rounding errors; 
+the first value is the lower bound).
