@@ -1,0 +1,9 @@
+{
+  "input": "../sprint_10/outputs/parallel_full_20260521/candidates.jsonl",
+  "processed": 2701,
+  "unique_classes": 2626,
+  "raw_matrix_cache_size": 2701,
+  "distinct_values": 102,
+  "elapsed_seconds": 0.5629223329015076,
+  "done": true
+}

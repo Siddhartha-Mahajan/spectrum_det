@@ -28,8 +28,12 @@ In practice, the repository now contains four things:
 - Sprint 6 built a native C++ candidate-Gram generator and nauty-backed canonicalizer, but initially undercounted badly.
 - Sprint 7 found the main bug in that generator: `F_{r-1}` must be updated before active-block `IsLexMax`, not after it.
 - After the sprint 7 patch, the strict order-13 reproduction run improved from 75/130 to 124/130 known high-tail values in the long-run snapshot.
+- Sprint 8 reconciled the repaired order-13 generator against all known high-tail witnesses: 124 values occur in the patched stream and the remaining 6 survive direct path tracing.
 - The BOOZ order-13 paper count of 8321 candidate Gram matrices is still not fully reproduced.
-- The best current next step is a dynamic witness-path instrumentation sprint for the six remaining missing high-tail values.
+- Sprint 9 moved to the actual n = 12 target and produced exact verified witnesses for all 812 values in the archived conjectural spectrum.
+- Sprint 10 forked the order-13 generator and optimized `IsLexMax`; the capped 200k-node candidate stream is byte-identical to baseline and runs about 1.35x faster.
+- The sprint-10 8-worker optimized full run completed in about 61 minutes and produced 2701 raw candidate lines / 2626 canonical classes, but still does not match the BOOZ 8321 candidate count.
+- The best current next step for n = 12 is exclusion/certificate architecture for the 647 conjectured missing positive values.
 
 ## Main top-level files and folders
 
@@ -133,6 +137,9 @@ The repository is organized as one-strategy sprints. The sprint rule is document
 | `sprint_5` | `native_gram_generator.cpp`, `Makefile`, `results.md`, `outputs/` | Built a first native Orrick/BOOZ-style candidate-Gram generator. | Useful prototype, but not yet proof-grade or paper-level. |
 | `sprint_6` | `paper_reproduction_generator.cpp`, `canonicalize_candidates.py`, `results.md`, `outputs/` | Attempted paper-level BOOZ order-13 candidate-Gram reproduction. | Built serious machinery, but initial strict run only reached 2055 nauty classes and covered 75/130 known high-tail values. |
 | `sprint_7` | `audit_witness_filters.py`, `paper_source_findings.md`, `results.md`, `outputs/` | Audited witness Grams against sprint-6 filters and searched the paper/source trail for exact generator semantics. | Found the critical `F_{r-1}` update-order bug and patched sprint 6. Patched runs improved to 124/130 known high-tail values in the long-run snapshot. |
+| `sprint_8` | `witness_path_trace.py`, `reconcile_order13.py`, `results.md`, `outputs/` | Reconciled the repaired order-13 generator against the known high-tail witnesses. | Known high-tail compatibility is 130/130; full BOOZ 8321 candidate count remains unreproduced. |
+| `sprint_9` | `n12_witness_baseline.py`, `n12_interval_witness_fill.py`, `n12_complete_witness_pack.py`, `results.md`, `outputs/` | Built a complete n = 12 conjectural witness pack via 11 x 11 `(0,1)` blocks. | Verified witnesses for all 812 conjectured present values. |
+| `sprint_10` | `optimized_reproduction_generator.cpp`, `run_parallel_reproduction.py`, `adjugate_incremental_experiment.cpp`, `results.md`, `outputs/` | Optimized and parallelized the order-13 reproduction generator without intentionally changing search semantics. | Vectorized `IsLexMax` gives a 1.35x speedup on a byte-identical 200k-node benchmark; the full 8-worker run finished in about 61 minutes but still undercounts BOOZ. |
 
 ### More detail by sprint
 
@@ -235,6 +242,9 @@ spectrum_det/
     sprint_5/
     sprint_6/
     sprint_7/
+    sprint_8/
+    sprint_9/
+    sprint_10/
   paper_pdfs/
     pdfs/
     mds/
@@ -249,15 +259,17 @@ If you only need the big picture:
 
 1. Read `problem.md`.
 2. Read `agentic_sprints/README.md`.
-3. Read `agentic_sprints/sprint_7/results.md`.
-4. Read `notes.md` only if you need the detailed history.
+3. Read `agentic_sprints/sprint_9/results.md`.
+4. Read `agentic_sprints/sprint_10/results.md`.
+5. Read `notes.md` only if you need the detailed history.
 
 If you want the latest technical frontier:
 
-1. Read `agentic_sprints/sprint_6/results.md`.
-2. Read `agentic_sprints/sprint_7/results.md`.
-3. Inspect `agentic_sprints/sprint_6/paper_reproduction_generator.cpp`.
-4. Inspect `agentic_sprints/sprint_7/audit_witness_filters.py`.
+1. Read `agentic_sprints/sprint_8/results.md`.
+2. Read `agentic_sprints/sprint_9/results.md`.
+3. Read `agentic_sprints/sprint_10/results.md`.
+4. Inspect `agentic_sprints/sprint_10/optimized_reproduction_generator.cpp`.
+5. Inspect `agentic_sprints/sprint_10/run_parallel_reproduction.py`.
 
 If you want the paper corpus first:
 
@@ -281,6 +293,8 @@ Important sprint-local build or run surfaces include:
 - `agentic_sprints/sprint_5/Makefile`
 - `agentic_sprints/sprint_6/Makefile`
 - `agentic_sprints/sprint_6/requirements.txt`
+- `agentic_sprints/sprint_10/Makefile`
+- `agentic_sprints/sprint_10/run_parallel_reproduction.py`
 
 ## Most important generated artifacts
 
@@ -295,6 +309,8 @@ The repo includes a large number of outputs. The most important ones to know abo
 | `agentic_sprints/sprint_7/outputs/canonical_audit_all.json` | Witness-filter audit showing all 130 witness Grams pass the static filter layer. |
 | `agentic_sprints/sprint_7/outputs/flist_fix_2m/` | Best clean patched diagnostic cutoff so far. |
 | `agentic_sprints/sprint_7/outputs/flist_fix_full/` | Partial artifacts from the longer patched run. |
+| `agentic_sprints/sprint_9/outputs/n12_complete_witnesses.json` | Verified witness pack for all 812 conjectured present `n = 12` values. |
+| `agentic_sprints/sprint_10/outputs/parallel_full_20260521/` | Completed optimized 8-worker order-13 generator run and reconciliation outputs. |
 
 ## What is blocked or incomplete
 
@@ -306,13 +322,13 @@ The repo includes a large number of outputs. The most important ones to know abo
 
 ## Recommended next step from the current state
 
-The best next sprint is already identified in `agentic_sprints/strategy_backlog.md`:
+The best next sprint is:
 
-- add dynamic witness-path instrumentation for the six remaining missing high-tail values in the patched long-run snapshot: `2271, 2307, 2316, 2336, 2360, 2916`;
-- feed their canonical witness-Gram orderings into the live C++ generator;
-- log the first exact divergence in `F`, `Gamma`, `e_r`, or bound state.
+- for `n = 12`, start exclusion/certificate architecture for the 647 conjectured missing positive normalized values;
+- for BOOZ reproduction, use the 40 still-unaccounted high-tail values from `agentic_sprints/sprint_10/outputs/parallel_full_20260521/order13_reconciliation.json` as branch-level regression tests;
+- compare the reconstructed active-block `IsLexMax`, `F`/`Gamma` update behavior, and equivalence-counting convention against the BOOZ/Orrick descriptions.
 
-That is the narrowest known path from the current state toward a genuine BOOZ order-13 reproduction, and it is the best immediate precursor to any serious `n = 12` exclusion-side work.
+That is the current split: `n = 12` has the witness side done and needs absence certificates; order-13 has faster infrastructure but still needs exact generator semantics.
 
 ## If you are starting fresh in this repo
 
@@ -321,7 +337,8 @@ Read these in order:
 1. `README.md`
 2. `problem.md`
 3. `agentic_sprints/README.md`
-4. `agentic_sprints/sprint_7/results.md`
-5. `notes.md`
+4. `agentic_sprints/sprint_9/results.md`
+5. `agentic_sprints/sprint_10/results.md`
+6. `notes.md`
 
 That sequence gives the problem statement, the repo map, the sprint structure, the current technical frontier, and the detailed research log.

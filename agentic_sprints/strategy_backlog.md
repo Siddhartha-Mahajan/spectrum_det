@@ -24,7 +24,10 @@ Each sprint should try one strategy and leave behind runnable code, outputs, and
 - sprint_5: native Orrick/BOOZ-style candidate-Gram generator prototype.
 - sprint_6: paper-reproduction candidate-Gram generator attempt with canonicalization diagnostics; currently reaches 2055 nauty classes, not BOOZ's 8321.
 - sprint_7: witness-driven canonical-filter audit; found and patched the `F`/`Gamma` update-order bug, improving patched-run coverage to 124/130 known high-tail values in the long-run snapshot.
+- sprint_8: repaired order-13 generator reconciliation; known high-tail compatibility is 130/130 after combining stream coverage with direct path tracing, while the full 8321 candidate-Gram count remains open locally.
+- sprint_9: complete n = 12 conjectural witness pack; found and verified all 812 conjectured present values.
+- sprint_10: optimized order-13 generator fork; vectorized `IsLexMax` gives a 1.35x speedup on a 200k-node benchmark with byte-identical candidate output.
 
 ## Suggested next sprint
 
-- sprint_8: dynamic witness-path instrumentation for the six remaining missing high-tail values; feed canonical witness paths into the C++ generator and report where live `F`, `Gamma`, `e_r`, or bound state diverges.
+- future sprint: start exclusion/certificate architecture for the 647 conjectured missing positive `n = 12` values. Witness search is complete; the next hard problem is nonexistence.

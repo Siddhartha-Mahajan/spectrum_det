@@ -91,6 +91,9 @@ Useful local files:
 - agentic_sprints/sprint_5/results.md: native Orrick/BOOZ-style candidate-Gram generator prototype with checkpointed progress.
 - agentic_sprints/sprint_6/results.md: paper-reproduction candidate-Gram generator attempt; includes BOOZ-congruent native generator, nauty canonicalization, and current blocker against reproducing the 8321 order-13 count.
 - agentic_sprints/sprint_7/results.md: witness-driven filter audit; identifies and patches the sprint-6 `F`/`Gamma` update-order bug, and records patched-run coverage up to 124/130 known order-13 high-tail values.
+- agentic_sprints/sprint_8/results.md: repaired order-13 generator reconciliation; all 130 known high-tail witnesses are accounted for by stream coverage plus path trace, while the full 8321 BOOZ candidate count remains open.
+- agentic_sprints/sprint_9/results.md: complete n = 12 conjectural witness pack; verifies all 812 conjectured present values.
+- agentic_sprints/sprint_10/results.md: optimized order-13 generator fork; vectorized `IsLexMax` gives a 1.35x speedup on a 200k-node benchmark with byte-identical candidate output, and the full 8-worker run finishes in about 61 minutes while still undercounting BOOZ.
 
 ## Scope notes
 

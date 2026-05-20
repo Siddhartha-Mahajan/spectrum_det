@@ -1,0 +1,3069 @@
+{
+  "order": 13,
+  "threshold": 2173,
+  "lexmax_mode": "always",
+  "values": [
+    2271,
+    2307,
+    2316,
+    2336,
+    2360,
+    2916
+  ],
+  "accepted_values": [
+    2271,
+    2307,
+    2316,
+    2336,
+    2360,
+    2916
+  ],
+  "rejected_values": [],
+  "failure_counts": {
+    "none": 6
+  },
+  "elapsed_seconds": 162.73114249994978,
+  "results": [
+    {
+      "value": 2271,
+      "status": "accepted",
+      "present_in_sprint7_reference_stream": false,
+      "verified_square_gram": true,
+      "normalized_from_gram": 2271,
+      "gram_determinant": "86527501664256",
+      "canonical_ordering": [
+        4,
+        12,
+        2,
+        7,
+        6,
+        8,
+        1,
+        10,
+        3,
+        11,
+        9,
+        0,
+        5
+      ],
+      "canonical_tie_count": 2,
+      "canonical_truncated": false,
+      "failure_prefix_size": 13,
+      "failure": "none",
+      "gamma_tests": 0,
+      "level_traces": [
+        {
+          "prefix_size": 2,
+          "emax_before": 11,
+          "f_list_sizes_before": [
+            1,
+            0
+          ],
+          "target_vector": [
+            5
+          ],
+          "candidate_vector_count": 6,
+          "target_position": 2,
+          "prior_vectors_that_passed_bound": 2,
+          "prior_vectors_that_passed_lexmax": 2,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "prefix_size": 3,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            0
+          ],
+          "target_vector": [
+            -3,
+            -3
+          ],
+          "candidate_vector_count": 9,
+          "target_position": 4,
+          "prior_vectors_that_passed_bound": 4,
+          "prior_vectors_that_passed_lexmax": 2,
+          "prior_prune_counts": {
+            "lexmax": 2
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            0
+          ]
+        },
+        {
+          "prefix_size": 4,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            0
+          ],
+          "target_vector": [
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 15,
+          "target_position": 9,
+          "prior_vectors_that_passed_bound": 9,
+          "prior_vectors_that_passed_lexmax": 3,
+          "prior_prune_counts": {
+            "lexmax": 6
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            0
+          ]
+        },
+        {
+          "prefix_size": 5,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            -3,
+            1
+          ],
+          "candidate_vector_count": 30,
+          "target_position": 3,
+          "prior_vectors_that_passed_bound": 3,
+          "prior_vectors_that_passed_lexmax": 3,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            0
+          ]
+        },
+        {
+          "prefix_size": 6,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 12,
+          "target_position": 9,
+          "prior_vectors_that_passed_bound": 9,
+          "prior_vectors_that_passed_lexmax": 8,
+          "prior_prune_counts": {
+            "lexmax": 1
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            10,
+            0
+          ]
+        },
+        {
+          "prefix_size": 7,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            10,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            -3,
+            -3,
+            1
+          ],
+          "candidate_vector_count": 30,
+          "target_position": 12,
+          "prior_vectors_that_passed_bound": 12,
+          "prior_vectors_that_passed_lexmax": 6,
+          "prior_prune_counts": {
+            "lexmax": 6
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            10,
+            13,
+            0
+          ]
+        },
+        {
+          "prefix_size": 8,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            10,
+            13,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 39,
+          "target_position": 27,
+          "prior_vectors_that_passed_bound": 22,
+          "prior_vectors_that_passed_lexmax": 17,
+          "prior_prune_counts": {
+            "lexmax": 5,
+            "km_gamma_bound": 5
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            10,
+            13,
+            23,
+            0
+          ]
+        },
+        {
+          "prefix_size": 9,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            10,
+            13,
+            23,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1,
+            -3
+          ],
+          "candidate_vector_count": 69,
+          "target_position": 28,
+          "prior_vectors_that_passed_bound": 20,
+          "prior_vectors_that_passed_lexmax": 19,
+          "prior_prune_counts": {
+            "km_gamma_bound": 8,
+            "lexmax": 1
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            10,
+            13,
+            23,
+            21,
+            0
+          ]
+        },
+        {
+          "prefix_size": 10,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            10,
+            13,
+            23,
+            21,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 63,
+          "target_position": 9,
+          "prior_vectors_that_passed_bound": 8,
+          "prior_vectors_that_passed_lexmax": 8,
+          "prior_prune_counts": {
+            "km_gamma_bound": 1
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            10,
+            13,
+            23,
+            21,
+            9,
+            0
+          ]
+        },
+        {
+          "prefix_size": 11,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            10,
+            13,
+            23,
+            21,
+            9,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 27,
+          "target_position": 9,
+          "prior_vectors_that_passed_bound": 5,
+          "prior_vectors_that_passed_lexmax": 5,
+          "prior_prune_counts": {
+            "km_gamma_bound": 4
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            10,
+            13,
+            23,
+            21,
+            9,
+            6,
+            0
+          ]
+        },
+        {
+          "prefix_size": 12,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            10,
+            13,
+            23,
+            21,
+            9,
+            6,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 18,
+          "target_position": 0,
+          "prior_vectors_that_passed_bound": 0,
+          "prior_vectors_that_passed_lexmax": 0,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            10,
+            13,
+            23,
+            21,
+            9,
+            6,
+            1,
+            0
+          ]
+        },
+        {
+          "prefix_size": 13,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            4,
+            10,
+            13,
+            23,
+            21,
+            9,
+            6,
+            1,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 3,
+          "target_position": 0,
+          "prior_vectors_that_passed_bound": 0,
+          "prior_vectors_that_passed_lexmax": 0,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "full_normalized": 2271,
+          "lexmax_permutations_seen": 1
+        }
+      ]
+    },
+    {
+      "value": 2307,
+      "status": "accepted",
+      "present_in_sprint7_reference_stream": false,
+      "verified_square_gram": true,
+      "normalized_from_gram": 2307,
+      "gram_determinant": "89292521078784",
+      "canonical_ordering": [
+        11,
+        5,
+        8,
+        4,
+        9,
+        6,
+        12,
+        2,
+        7,
+        3,
+        1,
+        10,
+        0
+      ],
+      "canonical_tie_count": 2,
+      "canonical_truncated": false,
+      "failure_prefix_size": 13,
+      "failure": "none",
+      "gamma_tests": 0,
+      "level_traces": [
+        {
+          "prefix_size": 2,
+          "emax_before": 11,
+          "f_list_sizes_before": [
+            1,
+            0
+          ],
+          "target_vector": [
+            -3
+          ],
+          "candidate_vector_count": 6,
+          "target_position": 1,
+          "prior_vectors_that_passed_bound": 1,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "prefix_size": 3,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            0
+          ],
+          "target_vector": [
+            -3,
+            -3
+          ],
+          "candidate_vector_count": 4,
+          "target_position": 3,
+          "prior_vectors_that_passed_bound": 3,
+          "prior_vectors_that_passed_lexmax": 2,
+          "prior_prune_counts": {
+            "lexmax": 1
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            4,
+            0
+          ]
+        },
+        {
+          "prefix_size": 4,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            4,
+            0
+          ],
+          "target_vector": [
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 8,
+          "target_position": 4,
+          "prior_vectors_that_passed_bound": 4,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {
+            "lexmax": 3
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            4,
+            5,
+            0
+          ]
+        },
+        {
+          "prefix_size": 5,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            4,
+            5,
+            0
+          ],
+          "target_vector": [
+            -3,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 10,
+          "target_position": 8,
+          "prior_vectors_that_passed_bound": 8,
+          "prior_vectors_that_passed_lexmax": 4,
+          "prior_prune_counts": {
+            "lexmax": 4
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            0
+          ]
+        },
+        {
+          "prefix_size": 6,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            0
+          ],
+          "target_vector": [
+            1,
+            -3,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 18,
+          "target_position": 8,
+          "prior_vectors_that_passed_bound": 8,
+          "prior_vectors_that_passed_lexmax": 3,
+          "prior_prune_counts": {
+            "lexmax": 5
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            9,
+            0
+          ]
+        },
+        {
+          "prefix_size": 7,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            9,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 18,
+          "target_position": 4,
+          "prior_vectors_that_passed_bound": 4,
+          "prior_vectors_that_passed_lexmax": 2,
+          "prior_prune_counts": {
+            "lexmax": 2
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            9,
+            5,
+            0
+          ]
+        },
+        {
+          "prefix_size": 8,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            9,
+            5,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 10,
+          "target_position": 8,
+          "prior_vectors_that_passed_bound": 8,
+          "prior_vectors_that_passed_lexmax": 6,
+          "prior_prune_counts": {
+            "lexmax": 2
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            9,
+            5,
+            9,
+            0
+          ]
+        },
+        {
+          "prefix_size": 9,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            9,
+            5,
+            9,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1
+          ],
+          "candidate_vector_count": 18,
+          "target_position": 2,
+          "prior_vectors_that_passed_bound": 2,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {
+            "lexmax": 1
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            9,
+            5,
+            9,
+            3,
+            0
+          ]
+        },
+        {
+          "prefix_size": 10,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            9,
+            5,
+            9,
+            3,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 6,
+          "target_position": 0,
+          "prior_vectors_that_passed_bound": 0,
+          "prior_vectors_that_passed_lexmax": 0,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            9,
+            5,
+            9,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "prefix_size": 11,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            9,
+            5,
+            9,
+            3,
+            1,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -3
+          ],
+          "candidate_vector_count": 2,
+          "target_position": 1,
+          "prior_vectors_that_passed_bound": 1,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            9,
+            5,
+            9,
+            3,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "prefix_size": 12,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            9,
+            5,
+            9,
+            3,
+            1,
+            2,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1
+          ],
+          "candidate_vector_count": 4,
+          "target_position": 2,
+          "prior_vectors_that_passed_bound": 2,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {
+            "lexmax": 1
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            9,
+            5,
+            9,
+            3,
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "prefix_size": 13,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            9,
+            5,
+            9,
+            3,
+            1,
+            2,
+            3,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 6,
+          "target_position": 0,
+          "prior_vectors_that_passed_bound": 0,
+          "prior_vectors_that_passed_lexmax": 0,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "full_normalized": 2307,
+          "lexmax_permutations_seen": 1
+        }
+      ]
+    },
+    {
+      "value": 2316,
+      "status": "accepted",
+      "present_in_sprint7_reference_stream": false,
+      "verified_square_gram": true,
+      "normalized_from_gram": 2316,
+      "gram_determinant": "89990570704896",
+      "canonical_ordering": [
+        5,
+        0,
+        8,
+        1,
+        6,
+        12,
+        2,
+        3,
+        11,
+        7,
+        10,
+        9,
+        4
+      ],
+      "canonical_tie_count": 2,
+      "canonical_truncated": false,
+      "failure_prefix_size": 13,
+      "failure": "none",
+      "gamma_tests": 0,
+      "level_traces": [
+        {
+          "prefix_size": 2,
+          "emax_before": 11,
+          "f_list_sizes_before": [
+            1,
+            0
+          ],
+          "target_vector": [
+            5
+          ],
+          "candidate_vector_count": 6,
+          "target_position": 2,
+          "prior_vectors_that_passed_bound": 2,
+          "prior_vectors_that_passed_lexmax": 2,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "prefix_size": 3,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            0
+          ],
+          "target_vector": [
+            -3,
+            -3
+          ],
+          "candidate_vector_count": 9,
+          "target_position": 4,
+          "prior_vectors_that_passed_bound": 4,
+          "prior_vectors_that_passed_lexmax": 2,
+          "prior_prune_counts": {
+            "lexmax": 2
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            0
+          ]
+        },
+        {
+          "prefix_size": 4,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            0
+          ],
+          "target_vector": [
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 15,
+          "target_position": 9,
+          "prior_vectors_that_passed_bound": 9,
+          "prior_vectors_that_passed_lexmax": 3,
+          "prior_prune_counts": {
+            "lexmax": 6
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            0
+          ]
+        },
+        {
+          "prefix_size": 5,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            -3
+          ],
+          "candidate_vector_count": 30,
+          "target_position": 1,
+          "prior_vectors_that_passed_bound": 1,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            0
+          ]
+        },
+        {
+          "prefix_size": 6,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            -3
+          ],
+          "candidate_vector_count": 6,
+          "target_position": 1,
+          "prior_vectors_that_passed_bound": 1,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            2,
+            0
+          ]
+        },
+        {
+          "prefix_size": 7,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            2,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1
+          ],
+          "candidate_vector_count": 6,
+          "target_position": 3,
+          "prior_vectors_that_passed_bound": 3,
+          "prior_vectors_that_passed_lexmax": 3,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            2,
+            4,
+            0
+          ]
+        },
+        {
+          "prefix_size": 8,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            2,
+            4,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 12,
+          "target_position": 9,
+          "prior_vectors_that_passed_bound": 9,
+          "prior_vectors_that_passed_lexmax": 5,
+          "prior_prune_counts": {
+            "lexmax": 4
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            2,
+            4,
+            10,
+            0
+          ]
+        },
+        {
+          "prefix_size": 9,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            2,
+            4,
+            10,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 30,
+          "target_position": 9,
+          "prior_vectors_that_passed_bound": 9,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {
+            "lexmax": 8
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            2,
+            4,
+            10,
+            10,
+            0
+          ]
+        },
+        {
+          "prefix_size": 10,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            2,
+            4,
+            10,
+            10,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 30,
+          "target_position": 27,
+          "prior_vectors_that_passed_bound": 17,
+          "prior_vectors_that_passed_lexmax": 6,
+          "prior_prune_counts": {
+            "lexmax": 11,
+            "km_gamma_bound": 10
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            2,
+            4,
+            10,
+            10,
+            18,
+            0
+          ]
+        },
+        {
+          "prefix_size": 11,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            2,
+            4,
+            10,
+            10,
+            18,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1,
+            -3,
+            1
+          ],
+          "candidate_vector_count": 54,
+          "target_position": 27,
+          "prior_vectors_that_passed_bound": 15,
+          "prior_vectors_that_passed_lexmax": 6,
+          "prior_prune_counts": {
+            "lexmax": 9,
+            "km_gamma_bound": 12
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            2,
+            4,
+            10,
+            10,
+            18,
+            16,
+            0
+          ]
+        },
+        {
+          "prefix_size": 12,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            2,
+            4,
+            10,
+            10,
+            18,
+            16,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 48,
+          "target_position": 0,
+          "prior_vectors_that_passed_bound": 0,
+          "prior_vectors_that_passed_lexmax": 0,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            2,
+            4,
+            10,
+            10,
+            18,
+            16,
+            1,
+            0
+          ]
+        },
+        {
+          "prefix_size": 13,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            10,
+            2,
+            2,
+            4,
+            10,
+            10,
+            18,
+            16,
+            1,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 3,
+          "target_position": 0,
+          "prior_vectors_that_passed_bound": 0,
+          "prior_vectors_that_passed_lexmax": 0,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "full_normalized": 2316,
+          "lexmax_permutations_seen": 1
+        }
+      ]
+    },
+    {
+      "value": 2336,
+      "status": "accepted",
+      "present_in_sprint7_reference_stream": false,
+      "verified_square_gram": true,
+      "normalized_from_gram": 2336,
+      "gram_determinant": "91551522881536",
+      "canonical_ordering": [
+        0,
+        8,
+        12,
+        7,
+        11,
+        3,
+        5,
+        2,
+        6,
+        10,
+        9,
+        1,
+        4
+      ],
+      "canonical_tie_count": 8,
+      "canonical_truncated": false,
+      "failure_prefix_size": 13,
+      "failure": "none",
+      "gamma_tests": 0,
+      "level_traces": [
+        {
+          "prefix_size": 2,
+          "emax_before": 11,
+          "f_list_sizes_before": [
+            1,
+            0
+          ],
+          "target_vector": [
+            5
+          ],
+          "candidate_vector_count": 6,
+          "target_position": 2,
+          "prior_vectors_that_passed_bound": 2,
+          "prior_vectors_that_passed_lexmax": 2,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "prefix_size": 3,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            0
+          ],
+          "target_vector": [
+            -3,
+            -3
+          ],
+          "candidate_vector_count": 9,
+          "target_position": 4,
+          "prior_vectors_that_passed_bound": 4,
+          "prior_vectors_that_passed_lexmax": 2,
+          "prior_prune_counts": {
+            "lexmax": 2
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            0
+          ]
+        },
+        {
+          "prefix_size": 4,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            -3
+          ],
+          "candidate_vector_count": 15,
+          "target_position": 1,
+          "prior_vectors_that_passed_bound": 1,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            0
+          ]
+        },
+        {
+          "prefix_size": 5,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            -3,
+            1
+          ],
+          "candidate_vector_count": 6,
+          "target_position": 3,
+          "prior_vectors_that_passed_bound": 3,
+          "prior_vectors_that_passed_lexmax": 3,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            0
+          ]
+        },
+        {
+          "prefix_size": 6,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 12,
+          "target_position": 9,
+          "prior_vectors_that_passed_bound": 9,
+          "prior_vectors_that_passed_lexmax": 5,
+          "prior_prune_counts": {
+            "lexmax": 4
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            10,
+            0
+          ]
+        },
+        {
+          "prefix_size": 7,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            10,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            -3,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 30,
+          "target_position": 27,
+          "prior_vectors_that_passed_bound": 26,
+          "prior_vectors_that_passed_lexmax": 7,
+          "prior_prune_counts": {
+            "lexmax": 19,
+            "km_gamma_bound": 1
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            10,
+            27,
+            0
+          ]
+        },
+        {
+          "prefix_size": 8,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            10,
+            27,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            -3,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 81,
+          "target_position": 78,
+          "prior_vectors_that_passed_bound": 66,
+          "prior_vectors_that_passed_lexmax": 9,
+          "prior_prune_counts": {
+            "lexmax": 57,
+            "km_gamma_bound": 12
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            10,
+            27,
+            67,
+            0
+          ]
+        },
+        {
+          "prefix_size": 9,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            10,
+            27,
+            67,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            -3,
+            -3,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 201,
+          "target_position": 105,
+          "prior_vectors_that_passed_bound": 89,
+          "prior_vectors_that_passed_lexmax": 2,
+          "prior_prune_counts": {
+            "lexmax": 87,
+            "km_gamma_bound": 16
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            10,
+            27,
+            67,
+            90,
+            0
+          ]
+        },
+        {
+          "prefix_size": 10,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            10,
+            27,
+            67,
+            90,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 270,
+          "target_position": 198,
+          "prior_vectors_that_passed_bound": 93,
+          "prior_vectors_that_passed_lexmax": 8,
+          "prior_prune_counts": {
+            "lexmax": 85,
+            "km_gamma_bound": 105
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            10,
+            27,
+            67,
+            90,
+            94,
+            0
+          ]
+        },
+        {
+          "prefix_size": 11,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            10,
+            27,
+            67,
+            90,
+            94,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 282,
+          "target_position": 132,
+          "prior_vectors_that_passed_bound": 63,
+          "prior_vectors_that_passed_lexmax": 19,
+          "prior_prune_counts": {
+            "km_gamma_bound": 69,
+            "lexmax": 44
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            10,
+            27,
+            67,
+            90,
+            94,
+            64,
+            0
+          ]
+        },
+        {
+          "prefix_size": 12,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            10,
+            27,
+            67,
+            90,
+            94,
+            64,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 192,
+          "target_position": 102,
+          "prior_vectors_that_passed_bound": 45,
+          "prior_vectors_that_passed_lexmax": 9,
+          "prior_prune_counts": {
+            "lexmax": 36,
+            "km_gamma_bound": 57
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            10,
+            27,
+            67,
+            90,
+            94,
+            64,
+            46,
+            0
+          ]
+        },
+        {
+          "prefix_size": 13,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            10,
+            27,
+            67,
+            90,
+            94,
+            64,
+            46,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 138,
+          "target_position": 72,
+          "prior_vectors_that_passed_bound": 0,
+          "prior_vectors_that_passed_lexmax": 0,
+          "prior_prune_counts": {
+            "full_not_square": 71,
+            "lexmax": 1
+          },
+          "target_failure": "none",
+          "full_normalized": 2336,
+          "lexmax_permutations_seen": 750
+        }
+      ]
+    },
+    {
+      "value": 2360,
+      "status": "accepted",
+      "present_in_sprint7_reference_stream": false,
+      "verified_square_gram": true,
+      "normalized_from_gram": 2360,
+      "gram_determinant": "93442382233600",
+      "canonical_ordering": [
+        0,
+        5,
+        10,
+        12,
+        6,
+        3,
+        8,
+        9,
+        11,
+        1,
+        7,
+        4,
+        2
+      ],
+      "canonical_tie_count": 4,
+      "canonical_truncated": false,
+      "failure_prefix_size": 13,
+      "failure": "none",
+      "gamma_tests": 0,
+      "level_traces": [
+        {
+          "prefix_size": 2,
+          "emax_before": 11,
+          "f_list_sizes_before": [
+            1,
+            0
+          ],
+          "target_vector": [
+            5
+          ],
+          "candidate_vector_count": 6,
+          "target_position": 2,
+          "prior_vectors_that_passed_bound": 2,
+          "prior_vectors_that_passed_lexmax": 2,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "prefix_size": 3,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            0
+          ],
+          "target_vector": [
+            -3,
+            -3
+          ],
+          "candidate_vector_count": 9,
+          "target_position": 4,
+          "prior_vectors_that_passed_bound": 4,
+          "prior_vectors_that_passed_lexmax": 2,
+          "prior_prune_counts": {
+            "lexmax": 2
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            0
+          ]
+        },
+        {
+          "prefix_size": 4,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            -3
+          ],
+          "candidate_vector_count": 15,
+          "target_position": 1,
+          "prior_vectors_that_passed_bound": 1,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            0
+          ]
+        },
+        {
+          "prefix_size": 5,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            -3,
+            1
+          ],
+          "candidate_vector_count": 6,
+          "target_position": 3,
+          "prior_vectors_that_passed_bound": 3,
+          "prior_vectors_that_passed_lexmax": 3,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            0
+          ]
+        },
+        {
+          "prefix_size": 6,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            -3,
+            1
+          ],
+          "candidate_vector_count": 12,
+          "target_position": 3,
+          "prior_vectors_that_passed_bound": 3,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {
+            "lexmax": 2
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            4,
+            0
+          ]
+        },
+        {
+          "prefix_size": 7,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            4,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 12,
+          "target_position": 9,
+          "prior_vectors_that_passed_bound": 9,
+          "prior_vectors_that_passed_lexmax": 6,
+          "prior_prune_counts": {
+            "lexmax": 3
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            4,
+            10,
+            0
+          ]
+        },
+        {
+          "prefix_size": 8,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            4,
+            10,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 30,
+          "target_position": 27,
+          "prior_vectors_that_passed_bound": 25,
+          "prior_vectors_that_passed_lexmax": 10,
+          "prior_prune_counts": {
+            "lexmax": 15,
+            "km_gamma_bound": 2
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            4,
+            10,
+            26,
+            0
+          ]
+        },
+        {
+          "prefix_size": 9,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            4,
+            10,
+            26,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 78,
+          "target_position": 9,
+          "prior_vectors_that_passed_bound": 9,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {
+            "lexmax": 8
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            4,
+            10,
+            26,
+            10,
+            0
+          ]
+        },
+        {
+          "prefix_size": 10,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            4,
+            10,
+            26,
+            10,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 30,
+          "target_position": 9,
+          "prior_vectors_that_passed_bound": 9,
+          "prior_vectors_that_passed_lexmax": 3,
+          "prior_prune_counts": {
+            "lexmax": 6
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            4,
+            10,
+            26,
+            10,
+            10,
+            0
+          ]
+        },
+        {
+          "prefix_size": 11,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            4,
+            10,
+            26,
+            10,
+            10,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 30,
+          "target_position": 9,
+          "prior_vectors_that_passed_bound": 9,
+          "prior_vectors_that_passed_lexmax": 5,
+          "prior_prune_counts": {
+            "lexmax": 4
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            4,
+            10,
+            26,
+            10,
+            10,
+            10,
+            0
+          ]
+        },
+        {
+          "prefix_size": 12,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            4,
+            10,
+            26,
+            10,
+            10,
+            10,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 30,
+          "target_position": 9,
+          "prior_vectors_that_passed_bound": 6,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {
+            "lexmax": 5,
+            "km_gamma_bound": 3
+          },
+          "target_failure": "none",
+          "emax_after": 5,
+          "f_list_sizes_after": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            4,
+            10,
+            26,
+            10,
+            10,
+            10,
+            7,
+            0
+          ]
+        },
+        {
+          "prefix_size": 13,
+          "emax_before": 5,
+          "f_list_sizes_before": [
+            1,
+            3,
+            5,
+            2,
+            4,
+            4,
+            10,
+            26,
+            10,
+            10,
+            10,
+            7,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 21,
+          "target_position": 0,
+          "prior_vectors_that_passed_bound": 0,
+          "prior_vectors_that_passed_lexmax": 0,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "full_normalized": 2360,
+          "lexmax_permutations_seen": 1
+        }
+      ]
+    },
+    {
+      "value": 2916,
+      "status": "accepted",
+      "present_in_sprint7_reference_stream": false,
+      "verified_square_gram": true,
+      "normalized_from_gram": 2916,
+      "gram_determinant": "142657607172096",
+      "canonical_ordering": [
+        6,
+        0,
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        12,
+        11,
+        3,
+        10
+      ],
+      "canonical_tie_count": 200000,
+      "canonical_truncated": true,
+      "failure_prefix_size": 13,
+      "failure": "none",
+      "gamma_tests": 0,
+      "level_traces": [
+        {
+          "prefix_size": 2,
+          "emax_before": 11,
+          "f_list_sizes_before": [
+            1,
+            0
+          ],
+          "target_vector": [
+            -3
+          ],
+          "candidate_vector_count": 6,
+          "target_position": 1,
+          "prior_vectors_that_passed_bound": 1,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "prefix_size": 3,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            0
+          ],
+          "target_vector": [
+            -3,
+            1
+          ],
+          "candidate_vector_count": 4,
+          "target_position": 2,
+          "prior_vectors_that_passed_bound": 2,
+          "prior_vectors_that_passed_lexmax": 1,
+          "prior_prune_counts": {
+            "lexmax": 1
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "prefix_size": 4,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "target_vector": [
+            -3,
+            1,
+            1
+          ],
+          "candidate_vector_count": 6,
+          "target_position": 4,
+          "prior_vectors_that_passed_bound": 4,
+          "prior_vectors_that_passed_lexmax": 3,
+          "prior_prune_counts": {
+            "lexmax": 1
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            3,
+            5,
+            0
+          ]
+        },
+        {
+          "prefix_size": 5,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            3,
+            5,
+            0
+          ],
+          "target_vector": [
+            -3,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 10,
+          "target_position": 8,
+          "prior_vectors_that_passed_bound": 8,
+          "prior_vectors_that_passed_lexmax": 4,
+          "prior_prune_counts": {
+            "lexmax": 4
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            0
+          ]
+        },
+        {
+          "prefix_size": 6,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            0
+          ],
+          "target_vector": [
+            -3,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 18,
+          "target_position": 16,
+          "prior_vectors_that_passed_bound": 16,
+          "prior_vectors_that_passed_lexmax": 5,
+          "prior_prune_counts": {
+            "lexmax": 11
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            17,
+            0
+          ]
+        },
+        {
+          "prefix_size": 7,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            17,
+            0
+          ],
+          "target_vector": [
+            -3,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 34,
+          "target_position": 32,
+          "prior_vectors_that_passed_bound": 32,
+          "prior_vectors_that_passed_lexmax": 6,
+          "prior_prune_counts": {
+            "lexmax": 26
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            17,
+            33,
+            0
+          ]
+        },
+        {
+          "prefix_size": 8,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            17,
+            33,
+            0
+          ],
+          "target_vector": [
+            -3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 66,
+          "target_position": 64,
+          "prior_vectors_that_passed_bound": 64,
+          "prior_vectors_that_passed_lexmax": 7,
+          "prior_prune_counts": {
+            "lexmax": 57
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            17,
+            33,
+            65,
+            0
+          ]
+        },
+        {
+          "prefix_size": 9,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            17,
+            33,
+            65,
+            0
+          ],
+          "target_vector": [
+            -3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 130,
+          "target_position": 128,
+          "prior_vectors_that_passed_bound": 128,
+          "prior_vectors_that_passed_lexmax": 8,
+          "prior_prune_counts": {
+            "lexmax": 120
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            17,
+            33,
+            65,
+            129,
+            0
+          ]
+        },
+        {
+          "prefix_size": 10,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            17,
+            33,
+            65,
+            129,
+            0
+          ],
+          "target_vector": [
+            -3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 258,
+          "target_position": 256,
+          "prior_vectors_that_passed_bound": 256,
+          "prior_vectors_that_passed_lexmax": 9,
+          "prior_prune_counts": {
+            "lexmax": 247
+          },
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            17,
+            33,
+            65,
+            129,
+            257,
+            0
+          ]
+        },
+        {
+          "prefix_size": 11,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            17,
+            33,
+            65,
+            129,
+            257,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 514,
+          "target_position": 0,
+          "prior_vectors_that_passed_bound": 0,
+          "prior_vectors_that_passed_lexmax": 0,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            17,
+            33,
+            65,
+            129,
+            257,
+            1,
+            0
+          ]
+        },
+        {
+          "prefix_size": 12,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            17,
+            33,
+            65,
+            129,
+            257,
+            1,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 2,
+          "target_position": 0,
+          "prior_vectors_that_passed_bound": 0,
+          "prior_vectors_that_passed_lexmax": 0,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "emax_after": 3,
+          "f_list_sizes_after": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            17,
+            33,
+            65,
+            129,
+            257,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "prefix_size": 13,
+          "emax_before": 3,
+          "f_list_sizes_before": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            17,
+            33,
+            65,
+            129,
+            257,
+            1,
+            1,
+            0
+          ],
+          "target_vector": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "candidate_vector_count": 2,
+          "target_position": 0,
+          "prior_vectors_that_passed_bound": 0,
+          "prior_vectors_that_passed_lexmax": 0,
+          "prior_prune_counts": {},
+          "target_failure": "none",
+          "full_normalized": 2916,
+          "lexmax_permutations_seen": 1
+        }
+      ]
+    }
+  ]
+}

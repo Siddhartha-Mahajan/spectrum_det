@@ -1,0 +1,3566 @@
+{
+  "seed": 20260523,
+  "min_target": 301,
+  "max_target": 738,
+  "conjectured_spectrum_size": 812,
+  "seed_witness_count": 374,
+  "total_witness_count": 812,
+  "found_conjectured_count": 812,
+  "missing_conjectured_count": 0,
+  "missing_conjectured_values": [],
+  "missing_conjectured_ranges": [],
+  "interval_target_count": 438,
+  "interval_found_count": 438,
+  "interval_missing_count": 0,
+  "interval_missing_values": [],
+  "interval_missing_ranges": [],
+  "found_conjectured_ranges": [
+    "[0,738]",
+    "[740,765]",
+    "[767,769]",
+    "[771,774]",
+    "[776,777]",
+    "[779,780]",
+    "[783,786]",
+    "[788,789]",
+    "[792,793]",
+    "795",
+    "[797,798]",
+    "[800,801]",
+    "805",
+    "807",
+    "810",
+    "816",
+    "[818,819]",
+    "825",
+    "[832,833]",
+    "837",
+    "840",
+    "848",
+    "864",
+    "873",
+    "882",
+    "891",
+    "896",
+    "945",
+    "972",
+    "1024",
+    "1053",
+    "1215",
+    "1458"
+  ],
+  "contradiction_candidate_count": 0,
+  "contradiction_candidates": [],
+  "random_samples": 200000,
+  "target_restarts": 25,
+  "target_steps": 140,
+  "kicks": 4,
+  "target_search_stats": {
+    "301": {
+      "found": true,
+      "restart": 0,
+      "step": 38,
+      "evaluations": 4606,
+      "best_distance": 0,
+      "best_value": 301
+    },
+    "302": {
+      "found": true,
+      "restart": 0,
+      "step": 8,
+      "evaluations": 969,
+      "best_distance": 0,
+      "best_value": 302
+    },
+    "303": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 303
+    },
+    "304": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 304
+    },
+    "305": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2180,
+      "best_distance": 0,
+      "best_value": 305
+    },
+    "306": {
+      "found": true,
+      "restart": 0,
+      "step": 28,
+      "evaluations": 3393,
+      "best_distance": 0,
+      "best_value": 306
+    },
+    "307": {
+      "found": true,
+      "restart": 0,
+      "step": 71,
+      "evaluations": 8607,
+      "best_distance": 0,
+      "best_value": 307
+    },
+    "308": {
+      "found": true,
+      "restart": 0,
+      "step": 10,
+      "evaluations": 1211,
+      "best_distance": 0,
+      "best_value": 308
+    },
+    "309": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1454,
+      "best_distance": 0,
+      "best_value": 309
+    },
+    "310": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 310
+    },
+    "311": {
+      "found": true,
+      "restart": 0,
+      "step": 19,
+      "evaluations": 2303,
+      "best_distance": 0,
+      "best_value": 311
+    },
+    "312": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 312
+    },
+    "313": {
+      "found": true,
+      "restart": 0,
+      "step": 27,
+      "evaluations": 3272,
+      "best_distance": 0,
+      "best_value": 313
+    },
+    "314": {
+      "found": true,
+      "restart": 0,
+      "step": 10,
+      "evaluations": 1211,
+      "best_distance": 0,
+      "best_value": 314
+    },
+    "315": {
+      "found": true,
+      "restart": 0,
+      "step": 20,
+      "evaluations": 2423,
+      "best_distance": 0,
+      "best_value": 315
+    },
+    "316": {
+      "found": true,
+      "restart": 0,
+      "step": 9,
+      "evaluations": 1090,
+      "best_distance": 0,
+      "best_value": 316
+    },
+    "317": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2180,
+      "best_distance": 0,
+      "best_value": 317
+    },
+    "318": {
+      "found": true,
+      "restart": 0,
+      "step": 10,
+      "evaluations": 1211,
+      "best_distance": 0,
+      "best_value": 318
+    },
+    "319": {
+      "found": true,
+      "restart": 0,
+      "step": 20,
+      "evaluations": 2423,
+      "best_distance": 0,
+      "best_value": 319
+    },
+    "320": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 320
+    },
+    "321": {
+      "found": true,
+      "restart": 0,
+      "step": 33,
+      "evaluations": 4000,
+      "best_distance": 0,
+      "best_value": 321
+    },
+    "322": {
+      "found": true,
+      "restart": 0,
+      "step": 10,
+      "evaluations": 1211,
+      "best_distance": 0,
+      "best_value": 322
+    },
+    "323": {
+      "found": true,
+      "restart": 0,
+      "step": 28,
+      "evaluations": 3393,
+      "best_distance": 0,
+      "best_value": 323
+    },
+    "324": {
+      "found": true,
+      "restart": 0,
+      "step": 9,
+      "evaluations": 1090,
+      "best_distance": 0,
+      "best_value": 324
+    },
+    "325": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1696,
+      "best_distance": 0,
+      "best_value": 325
+    },
+    "326": {
+      "found": true,
+      "restart": 0,
+      "step": 10,
+      "evaluations": 1211,
+      "best_distance": 0,
+      "best_value": 326
+    },
+    "327": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 327
+    },
+    "328": {
+      "found": true,
+      "restart": 0,
+      "step": 7,
+      "evaluations": 848,
+      "best_distance": 0,
+      "best_value": 328
+    },
+    "329": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2180,
+      "best_distance": 0,
+      "best_value": 329
+    },
+    "330": {
+      "found": true,
+      "restart": 0,
+      "step": 10,
+      "evaluations": 1211,
+      "best_distance": 0,
+      "best_value": 330
+    },
+    "331": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2180,
+      "best_distance": 0,
+      "best_value": 331
+    },
+    "332": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 332
+    },
+    "333": {
+      "found": true,
+      "restart": 0,
+      "step": 13,
+      "evaluations": 1574,
+      "best_distance": 0,
+      "best_value": 333
+    },
+    "334": {
+      "found": true,
+      "restart": 0,
+      "step": 20,
+      "evaluations": 2422,
+      "best_distance": 0,
+      "best_value": 334
+    },
+    "335": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1696,
+      "best_distance": 0,
+      "best_value": 335
+    },
+    "336": {
+      "found": true,
+      "restart": 0,
+      "step": 10,
+      "evaluations": 1211,
+      "best_distance": 0,
+      "best_value": 336
+    },
+    "337": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1454,
+      "best_distance": 0,
+      "best_value": 337
+    },
+    "338": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1696,
+      "best_distance": 0,
+      "best_value": 338
+    },
+    "339": {
+      "found": true,
+      "restart": 0,
+      "step": 10,
+      "evaluations": 1211,
+      "best_distance": 0,
+      "best_value": 339
+    },
+    "340": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 340
+    },
+    "341": {
+      "found": true,
+      "restart": 0,
+      "step": 20,
+      "evaluations": 2422,
+      "best_distance": 0,
+      "best_value": 341
+    },
+    "342": {
+      "found": true,
+      "restart": 0,
+      "step": 10,
+      "evaluations": 1211,
+      "best_distance": 0,
+      "best_value": 342
+    },
+    "343": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2060,
+      "best_distance": 0,
+      "best_value": 343
+    },
+    "344": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1817,
+      "best_distance": 0,
+      "best_value": 344
+    },
+    "345": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 345
+    },
+    "346": {
+      "found": true,
+      "restart": 0,
+      "step": 20,
+      "evaluations": 2423,
+      "best_distance": 0,
+      "best_value": 346
+    },
+    "347": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2059,
+      "best_distance": 0,
+      "best_value": 347
+    },
+    "348": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1697,
+      "best_distance": 0,
+      "best_value": 348
+    },
+    "349": {
+      "found": true,
+      "restart": 0,
+      "step": 32,
+      "evaluations": 3877,
+      "best_distance": 0,
+      "best_value": 349
+    },
+    "350": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2059,
+      "best_distance": 0,
+      "best_value": 350
+    },
+    "351": {
+      "found": true,
+      "restart": 0,
+      "step": 9,
+      "evaluations": 1090,
+      "best_distance": 0,
+      "best_value": 351
+    },
+    "352": {
+      "found": true,
+      "restart": 0,
+      "step": 9,
+      "evaluations": 1091,
+      "best_distance": 0,
+      "best_value": 352
+    },
+    "353": {
+      "found": true,
+      "restart": 0,
+      "step": 53,
+      "evaluations": 6424,
+      "best_distance": 0,
+      "best_value": 353
+    },
+    "354": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2181,
+      "best_distance": 0,
+      "best_value": 354
+    },
+    "355": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 355
+    },
+    "356": {
+      "found": true,
+      "restart": 0,
+      "step": 10,
+      "evaluations": 1211,
+      "best_distance": 0,
+      "best_value": 356
+    },
+    "357": {
+      "found": true,
+      "restart": 0,
+      "step": 8,
+      "evaluations": 969,
+      "best_distance": 0,
+      "best_value": 357
+    },
+    "358": {
+      "found": true,
+      "restart": 0,
+      "step": 9,
+      "evaluations": 1090,
+      "best_distance": 0,
+      "best_value": 358
+    },
+    "359": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 359
+    },
+    "360": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 360
+    },
+    "361": {
+      "found": true,
+      "restart": 0,
+      "step": 21,
+      "evaluations": 2543,
+      "best_distance": 0,
+      "best_value": 361
+    },
+    "362": {
+      "found": true,
+      "restart": 0,
+      "step": 27,
+      "evaluations": 3271,
+      "best_distance": 0,
+      "best_value": 362
+    },
+    "363": {
+      "found": true,
+      "restart": 0,
+      "step": 29,
+      "evaluations": 3514,
+      "best_distance": 0,
+      "best_value": 363
+    },
+    "364": {
+      "found": true,
+      "restart": 0,
+      "step": 13,
+      "evaluations": 1574,
+      "best_distance": 0,
+      "best_value": 364
+    },
+    "365": {
+      "found": true,
+      "restart": 0,
+      "step": 33,
+      "evaluations": 3999,
+      "best_distance": 0,
+      "best_value": 365
+    },
+    "366": {
+      "found": true,
+      "restart": 0,
+      "step": 21,
+      "evaluations": 2544,
+      "best_distance": 0,
+      "best_value": 366
+    },
+    "367": {
+      "found": true,
+      "restart": 0,
+      "step": 19,
+      "evaluations": 2301,
+      "best_distance": 0,
+      "best_value": 367
+    },
+    "368": {
+      "found": true,
+      "restart": 0,
+      "step": 24,
+      "evaluations": 2908,
+      "best_distance": 0,
+      "best_value": 368
+    },
+    "369": {
+      "found": true,
+      "restart": 0,
+      "step": 24,
+      "evaluations": 2907,
+      "best_distance": 0,
+      "best_value": 369
+    },
+    "370": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 370
+    },
+    "371": {
+      "found": true,
+      "restart": 0,
+      "step": 21,
+      "evaluations": 2544,
+      "best_distance": 0,
+      "best_value": 371
+    },
+    "372": {
+      "found": true,
+      "restart": 0,
+      "step": 24,
+      "evaluations": 2907,
+      "best_distance": 0,
+      "best_value": 372
+    },
+    "373": {
+      "found": true,
+      "restart": 0,
+      "step": 56,
+      "evaluations": 6787,
+      "best_distance": 0,
+      "best_value": 373
+    },
+    "374": {
+      "found": true,
+      "restart": 0,
+      "step": 20,
+      "evaluations": 2423,
+      "best_distance": 0,
+      "best_value": 374
+    },
+    "375": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 375
+    },
+    "376": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1696,
+      "best_distance": 0,
+      "best_value": 376
+    },
+    "377": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2059,
+      "best_distance": 0,
+      "best_value": 377
+    },
+    "378": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2181,
+      "best_distance": 0,
+      "best_value": 378
+    },
+    "379": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1696,
+      "best_distance": 0,
+      "best_value": 379
+    },
+    "380": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 380
+    },
+    "381": {
+      "found": true,
+      "restart": 0,
+      "step": 40,
+      "evaluations": 4847,
+      "best_distance": 0,
+      "best_value": 381
+    },
+    "382": {
+      "found": true,
+      "restart": 0,
+      "step": 8,
+      "evaluations": 969,
+      "best_distance": 0,
+      "best_value": 382
+    },
+    "383": {
+      "found": true,
+      "restart": 0,
+      "step": 22,
+      "evaluations": 2665,
+      "best_distance": 0,
+      "best_value": 383
+    },
+    "384": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 384
+    },
+    "385": {
+      "found": true,
+      "restart": 0,
+      "step": 46,
+      "evaluations": 5574,
+      "best_distance": 0,
+      "best_value": 385
+    },
+    "386": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 386
+    },
+    "387": {
+      "found": true,
+      "restart": 0,
+      "step": 62,
+      "evaluations": 7515,
+      "best_distance": 0,
+      "best_value": 387
+    },
+    "388": {
+      "found": true,
+      "restart": 0,
+      "step": 9,
+      "evaluations": 1090,
+      "best_distance": 0,
+      "best_value": 388
+    },
+    "389": {
+      "found": true,
+      "restart": 0,
+      "step": 108,
+      "evaluations": 13089,
+      "best_distance": 0,
+      "best_value": 389
+    },
+    "390": {
+      "found": true,
+      "restart": 0,
+      "step": 10,
+      "evaluations": 1211,
+      "best_distance": 0,
+      "best_value": 390
+    },
+    "391": {
+      "found": true,
+      "restart": 0,
+      "step": 16,
+      "evaluations": 1938,
+      "best_distance": 0,
+      "best_value": 391
+    },
+    "392": {
+      "found": true,
+      "restart": 0,
+      "step": 22,
+      "evaluations": 2665,
+      "best_distance": 0,
+      "best_value": 392
+    },
+    "393": {
+      "found": true,
+      "restart": 0,
+      "step": 41,
+      "evaluations": 4971,
+      "best_distance": 0,
+      "best_value": 393
+    },
+    "394": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2180,
+      "best_distance": 0,
+      "best_value": 394
+    },
+    "395": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1696,
+      "best_distance": 0,
+      "best_value": 395
+    },
+    "396": {
+      "found": true,
+      "restart": 0,
+      "step": 13,
+      "evaluations": 1574,
+      "best_distance": 0,
+      "best_value": 396
+    },
+    "397": {
+      "found": true,
+      "restart": 0,
+      "step": 122,
+      "evaluations": 14788,
+      "best_distance": 0,
+      "best_value": 397
+    },
+    "398": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 398
+    },
+    "399": {
+      "found": true,
+      "restart": 0,
+      "step": 10,
+      "evaluations": 1211,
+      "best_distance": 0,
+      "best_value": 399
+    },
+    "400": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2060,
+      "best_distance": 0,
+      "best_value": 400
+    },
+    "401": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 401
+    },
+    "402": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 402
+    },
+    "403": {
+      "found": true,
+      "restart": 0,
+      "step": 34,
+      "evaluations": 4121,
+      "best_distance": 0,
+      "best_value": 403
+    },
+    "404": {
+      "found": true,
+      "restart": 0,
+      "step": 19,
+      "evaluations": 2302,
+      "best_distance": 0,
+      "best_value": 404
+    },
+    "405": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 405
+    },
+    "406": {
+      "found": true,
+      "restart": 0,
+      "step": 20,
+      "evaluations": 2421,
+      "best_distance": 0,
+      "best_value": 406
+    },
+    "407": {
+      "found": true,
+      "restart": 0,
+      "step": 54,
+      "evaluations": 6544,
+      "best_distance": 0,
+      "best_value": 407
+    },
+    "408": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1816,
+      "best_distance": 0,
+      "best_value": 408
+    },
+    "409": {
+      "found": true,
+      "restart": 0,
+      "step": 16,
+      "evaluations": 1938,
+      "best_distance": 0,
+      "best_value": 409
+    },
+    "410": {
+      "found": true,
+      "restart": 0,
+      "step": 29,
+      "evaluations": 3514,
+      "best_distance": 0,
+      "best_value": 410
+    },
+    "411": {
+      "found": true,
+      "restart": 0,
+      "step": 13,
+      "evaluations": 1574,
+      "best_distance": 0,
+      "best_value": 411
+    },
+    "412": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2181,
+      "best_distance": 0,
+      "best_value": 412
+    },
+    "413": {
+      "found": true,
+      "restart": 0,
+      "step": 58,
+      "evaluations": 7029,
+      "best_distance": 0,
+      "best_value": 413
+    },
+    "414": {
+      "found": true,
+      "restart": 0,
+      "step": 13,
+      "evaluations": 1574,
+      "best_distance": 0,
+      "best_value": 414
+    },
+    "415": {
+      "found": true,
+      "restart": 0,
+      "step": 19,
+      "evaluations": 2301,
+      "best_distance": 0,
+      "best_value": 415
+    },
+    "416": {
+      "found": true,
+      "restart": 0,
+      "step": 39,
+      "evaluations": 4725,
+      "best_distance": 0,
+      "best_value": 416
+    },
+    "417": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 417
+    },
+    "418": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 418
+    },
+    "419": {
+      "found": true,
+      "restart": 0,
+      "step": 55,
+      "evaluations": 6665,
+      "best_distance": 0,
+      "best_value": 419
+    },
+    "420": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 420
+    },
+    "421": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 421
+    },
+    "422": {
+      "found": true,
+      "restart": 0,
+      "step": 41,
+      "evaluations": 4969,
+      "best_distance": 0,
+      "best_value": 422
+    },
+    "423": {
+      "found": true,
+      "restart": 0,
+      "step": 34,
+      "evaluations": 4119,
+      "best_distance": 0,
+      "best_value": 423
+    },
+    "424": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 424
+    },
+    "425": {
+      "found": true,
+      "restart": 0,
+      "step": 27,
+      "evaluations": 3271,
+      "best_distance": 0,
+      "best_value": 425
+    },
+    "426": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 426
+    },
+    "427": {
+      "found": true,
+      "restart": 0,
+      "step": 46,
+      "evaluations": 5574,
+      "best_distance": 0,
+      "best_value": 427
+    },
+    "428": {
+      "found": true,
+      "restart": 0,
+      "step": 13,
+      "evaluations": 1574,
+      "best_distance": 0,
+      "best_value": 428
+    },
+    "429": {
+      "found": true,
+      "restart": 0,
+      "step": 24,
+      "evaluations": 2908,
+      "best_distance": 0,
+      "best_value": 429
+    },
+    "430": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2058,
+      "best_distance": 0,
+      "best_value": 430
+    },
+    "431": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 431
+    },
+    "432": {
+      "found": true,
+      "restart": 0,
+      "step": 9,
+      "evaluations": 1090,
+      "best_distance": 0,
+      "best_value": 432
+    },
+    "433": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 433
+    },
+    "434": {
+      "found": true,
+      "restart": 0,
+      "step": 16,
+      "evaluations": 1937,
+      "best_distance": 0,
+      "best_value": 434
+    },
+    "435": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1696,
+      "best_distance": 0,
+      "best_value": 435
+    },
+    "436": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2060,
+      "best_distance": 0,
+      "best_value": 436
+    },
+    "437": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2179,
+      "best_distance": 0,
+      "best_value": 437
+    },
+    "438": {
+      "found": true,
+      "restart": 0,
+      "step": 13,
+      "evaluations": 1574,
+      "best_distance": 0,
+      "best_value": 438
+    },
+    "439": {
+      "found": true,
+      "restart": 0,
+      "step": 50,
+      "evaluations": 6059,
+      "best_distance": 0,
+      "best_value": 439
+    },
+    "440": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1816,
+      "best_distance": 0,
+      "best_value": 440
+    },
+    "441": {
+      "found": true,
+      "restart": 0,
+      "step": 16,
+      "evaluations": 1937,
+      "best_distance": 0,
+      "best_value": 441
+    },
+    "442": {
+      "found": true,
+      "restart": 0,
+      "step": 40,
+      "evaluations": 4847,
+      "best_distance": 0,
+      "best_value": 442
+    },
+    "443": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2180,
+      "best_distance": 0,
+      "best_value": 443
+    },
+    "444": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 444
+    },
+    "445": {
+      "found": true,
+      "restart": 0,
+      "step": 52,
+      "evaluations": 6300,
+      "best_distance": 0,
+      "best_value": 445
+    },
+    "446": {
+      "found": true,
+      "restart": 0,
+      "step": 29,
+      "evaluations": 3513,
+      "best_distance": 0,
+      "best_value": 446
+    },
+    "447": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 447
+    },
+    "448": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2180,
+      "best_distance": 0,
+      "best_value": 448
+    },
+    "449": {
+      "found": true,
+      "restart": 0,
+      "step": 13,
+      "evaluations": 1574,
+      "best_distance": 0,
+      "best_value": 449
+    },
+    "450": {
+      "found": true,
+      "restart": 0,
+      "step": 19,
+      "evaluations": 2301,
+      "best_distance": 0,
+      "best_value": 450
+    },
+    "451": {
+      "found": true,
+      "restart": 0,
+      "step": 24,
+      "evaluations": 2907,
+      "best_distance": 0,
+      "best_value": 451
+    },
+    "452": {
+      "found": true,
+      "restart": 0,
+      "step": 36,
+      "evaluations": 4362,
+      "best_distance": 0,
+      "best_value": 452
+    },
+    "453": {
+      "found": true,
+      "restart": 0,
+      "step": 35,
+      "evaluations": 4241,
+      "best_distance": 0,
+      "best_value": 453
+    },
+    "454": {
+      "found": true,
+      "restart": 0,
+      "step": 46,
+      "evaluations": 5575,
+      "best_distance": 0,
+      "best_value": 454
+    },
+    "455": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 455
+    },
+    "456": {
+      "found": true,
+      "restart": 0,
+      "step": 40,
+      "evaluations": 4847,
+      "best_distance": 0,
+      "best_value": 456
+    },
+    "457": {
+      "found": true,
+      "restart": 0,
+      "step": 19,
+      "evaluations": 2301,
+      "best_distance": 0,
+      "best_value": 457
+    },
+    "458": {
+      "found": true,
+      "restart": 0,
+      "step": 29,
+      "evaluations": 3514,
+      "best_distance": 0,
+      "best_value": 458
+    },
+    "459": {
+      "found": true,
+      "restart": 0,
+      "step": 16,
+      "evaluations": 1937,
+      "best_distance": 0,
+      "best_value": 459
+    },
+    "460": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 460
+    },
+    "461": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1816,
+      "best_distance": 0,
+      "best_value": 461
+    },
+    "462": {
+      "found": true,
+      "restart": 0,
+      "step": 16,
+      "evaluations": 1938,
+      "best_distance": 0,
+      "best_value": 462
+    },
+    "463": {
+      "found": true,
+      "restart": 0,
+      "step": 137,
+      "evaluations": 16602,
+      "best_distance": 0,
+      "best_value": 463
+    },
+    "464": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2059,
+      "best_distance": 0,
+      "best_value": 464
+    },
+    "465": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2059,
+      "best_distance": 0,
+      "best_value": 465
+    },
+    "466": {
+      "found": true,
+      "restart": 0,
+      "step": 22,
+      "evaluations": 2665,
+      "best_distance": 0,
+      "best_value": 466
+    },
+    "467": {
+      "found": true,
+      "restart": 0,
+      "step": 70,
+      "evaluations": 8483,
+      "best_distance": 0,
+      "best_value": 467
+    },
+    "468": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 468
+    },
+    "469": {
+      "found": true,
+      "restart": 0,
+      "step": 36,
+      "evaluations": 4362,
+      "best_distance": 0,
+      "best_value": 469
+    },
+    "470": {
+      "found": true,
+      "restart": 0,
+      "step": 22,
+      "evaluations": 2664,
+      "best_distance": 0,
+      "best_value": 470
+    },
+    "471": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 471
+    },
+    "472": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 472
+    },
+    "473": {
+      "found": true,
+      "restart": 0,
+      "step": 19,
+      "evaluations": 2302,
+      "best_distance": 0,
+      "best_value": 473
+    },
+    "474": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1817,
+      "best_distance": 0,
+      "best_value": 474
+    },
+    "475": {
+      "found": true,
+      "restart": 0,
+      "step": 41,
+      "evaluations": 4969,
+      "best_distance": 0,
+      "best_value": 475
+    },
+    "476": {
+      "found": true,
+      "restart": 0,
+      "step": 13,
+      "evaluations": 1574,
+      "best_distance": 0,
+      "best_value": 476
+    },
+    "477": {
+      "found": true,
+      "restart": 0,
+      "step": 43,
+      "evaluations": 5210,
+      "best_distance": 0,
+      "best_value": 477
+    },
+    "478": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1817,
+      "best_distance": 0,
+      "best_value": 478
+    },
+    "479": {
+      "found": true,
+      "restart": 0,
+      "step": 23,
+      "evaluations": 2786,
+      "best_distance": 0,
+      "best_value": 479
+    },
+    "480": {
+      "found": true,
+      "restart": 0,
+      "step": 20,
+      "evaluations": 2422,
+      "best_distance": 0,
+      "best_value": 480
+    },
+    "481": {
+      "found": true,
+      "restart": 0,
+      "step": 100,
+      "evaluations": 12120,
+      "best_distance": 0,
+      "best_value": 481
+    },
+    "482": {
+      "found": true,
+      "restart": 0,
+      "step": 22,
+      "evaluations": 2666,
+      "best_distance": 0,
+      "best_value": 482
+    },
+    "483": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2059,
+      "best_distance": 0,
+      "best_value": 483
+    },
+    "484": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 484
+    },
+    "485": {
+      "found": true,
+      "restart": 0,
+      "step": 16,
+      "evaluations": 1937,
+      "best_distance": 0,
+      "best_value": 485
+    },
+    "486": {
+      "found": true,
+      "restart": 0,
+      "step": 28,
+      "evaluations": 3392,
+      "best_distance": 0,
+      "best_value": 486
+    },
+    "487": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 487
+    },
+    "488": {
+      "found": true,
+      "restart": 0,
+      "step": 16,
+      "evaluations": 1937,
+      "best_distance": 0,
+      "best_value": 488
+    },
+    "489": {
+      "found": true,
+      "restart": 0,
+      "step": 35,
+      "evaluations": 4240,
+      "best_distance": 0,
+      "best_value": 489
+    },
+    "490": {
+      "found": true,
+      "restart": 0,
+      "step": 16,
+      "evaluations": 1937,
+      "best_distance": 0,
+      "best_value": 490
+    },
+    "491": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 491
+    },
+    "492": {
+      "found": true,
+      "restart": 0,
+      "step": 27,
+      "evaluations": 3270,
+      "best_distance": 0,
+      "best_value": 492
+    },
+    "493": {
+      "found": true,
+      "restart": 0,
+      "step": 27,
+      "evaluations": 3272,
+      "best_distance": 0,
+      "best_value": 493
+    },
+    "494": {
+      "found": true,
+      "restart": 0,
+      "step": 36,
+      "evaluations": 4362,
+      "best_distance": 0,
+      "best_value": 494
+    },
+    "495": {
+      "found": true,
+      "restart": 0,
+      "step": 80,
+      "evaluations": 9694,
+      "best_distance": 0,
+      "best_value": 495
+    },
+    "496": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2058,
+      "best_distance": 0,
+      "best_value": 496
+    },
+    "497": {
+      "found": true,
+      "restart": 0,
+      "step": 48,
+      "evaluations": 5817,
+      "best_distance": 0,
+      "best_value": 497
+    },
+    "498": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1816,
+      "best_distance": 0,
+      "best_value": 498
+    },
+    "499": {
+      "found": true,
+      "restart": 0,
+      "step": 28,
+      "evaluations": 3392,
+      "best_distance": 0,
+      "best_value": 499
+    },
+    "500": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2180,
+      "best_distance": 0,
+      "best_value": 500
+    },
+    "501": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1816,
+      "best_distance": 0,
+      "best_value": 501
+    },
+    "502": {
+      "found": true,
+      "restart": 0,
+      "step": 21,
+      "evaluations": 2544,
+      "best_distance": 0,
+      "best_value": 502
+    },
+    "503": {
+      "found": true,
+      "restart": 0,
+      "step": 93,
+      "evaluations": 11271,
+      "best_distance": 0,
+      "best_value": 503
+    },
+    "504": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1816,
+      "best_distance": 0,
+      "best_value": 504
+    },
+    "505": {
+      "found": true,
+      "restart": 0,
+      "step": 23,
+      "evaluations": 2785,
+      "best_distance": 0,
+      "best_value": 505
+    },
+    "506": {
+      "found": true,
+      "restart": 0,
+      "step": 13,
+      "evaluations": 1574,
+      "best_distance": 0,
+      "best_value": 506
+    },
+    "507": {
+      "found": true,
+      "restart": 0,
+      "step": 30,
+      "evaluations": 3634,
+      "best_distance": 0,
+      "best_value": 507
+    },
+    "508": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2058,
+      "best_distance": 0,
+      "best_value": 508
+    },
+    "509": {
+      "found": true,
+      "restart": 0,
+      "step": 26,
+      "evaluations": 3150,
+      "best_distance": 0,
+      "best_value": 509
+    },
+    "510": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1454,
+      "best_distance": 0,
+      "best_value": 510
+    },
+    "511": {
+      "found": true,
+      "restart": 0,
+      "step": 22,
+      "evaluations": 2665,
+      "best_distance": 0,
+      "best_value": 511
+    },
+    "512": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 512
+    },
+    "513": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 513
+    },
+    "514": {
+      "found": true,
+      "restart": 0,
+      "step": 29,
+      "evaluations": 3513,
+      "best_distance": 0,
+      "best_value": 514
+    },
+    "515": {
+      "found": true,
+      "restart": 0,
+      "step": 26,
+      "evaluations": 3149,
+      "best_distance": 0,
+      "best_value": 515
+    },
+    "516": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 516
+    },
+    "517": {
+      "found": true,
+      "restart": 0,
+      "step": 60,
+      "evaluations": 7269,
+      "best_distance": 0,
+      "best_value": 517
+    },
+    "518": {
+      "found": true,
+      "restart": 0,
+      "step": 47,
+      "evaluations": 5695,
+      "best_distance": 0,
+      "best_value": 518
+    },
+    "519": {
+      "found": true,
+      "restart": 0,
+      "step": 10,
+      "evaluations": 1211,
+      "best_distance": 0,
+      "best_value": 519
+    },
+    "520": {
+      "found": true,
+      "restart": 0,
+      "step": 19,
+      "evaluations": 2300,
+      "best_distance": 0,
+      "best_value": 520
+    },
+    "521": {
+      "found": true,
+      "restart": 0,
+      "step": 23,
+      "evaluations": 2785,
+      "best_distance": 0,
+      "best_value": 521
+    },
+    "522": {
+      "found": true,
+      "restart": 0,
+      "step": 34,
+      "evaluations": 4119,
+      "best_distance": 0,
+      "best_value": 522
+    },
+    "523": {
+      "found": true,
+      "restart": 0,
+      "step": 95,
+      "evaluations": 11513,
+      "best_distance": 0,
+      "best_value": 523
+    },
+    "524": {
+      "found": true,
+      "restart": 0,
+      "step": 27,
+      "evaluations": 3271,
+      "best_distance": 0,
+      "best_value": 524
+    },
+    "525": {
+      "found": true,
+      "restart": 0,
+      "step": 26,
+      "evaluations": 3149,
+      "best_distance": 0,
+      "best_value": 525
+    },
+    "526": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1817,
+      "best_distance": 0,
+      "best_value": 526
+    },
+    "527": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1816,
+      "best_distance": 0,
+      "best_value": 527
+    },
+    "528": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 528
+    },
+    "529": {
+      "found": true,
+      "restart": 0,
+      "step": 56,
+      "evaluations": 6785,
+      "best_distance": 0,
+      "best_value": 529
+    },
+    "530": {
+      "found": true,
+      "restart": 0,
+      "step": 38,
+      "evaluations": 4604,
+      "best_distance": 0,
+      "best_value": 530
+    },
+    "531": {
+      "found": true,
+      "restart": 0,
+      "step": 28,
+      "evaluations": 3392,
+      "best_distance": 0,
+      "best_value": 531
+    },
+    "532": {
+      "found": true,
+      "restart": 0,
+      "step": 26,
+      "evaluations": 3150,
+      "best_distance": 0,
+      "best_value": 532
+    },
+    "533": {
+      "found": true,
+      "restart": 0,
+      "step": 135,
+      "evaluations": 16361,
+      "best_distance": 0,
+      "best_value": 533
+    },
+    "534": {
+      "found": true,
+      "restart": 0,
+      "step": 16,
+      "evaluations": 1937,
+      "best_distance": 0,
+      "best_value": 534
+    },
+    "535": {
+      "found": true,
+      "restart": 0,
+      "step": 50,
+      "evaluations": 6060,
+      "best_distance": 0,
+      "best_value": 535
+    },
+    "536": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1816,
+      "best_distance": 0,
+      "best_value": 536
+    },
+    "537": {
+      "found": true,
+      "restart": 0,
+      "step": 19,
+      "evaluations": 2301,
+      "best_distance": 0,
+      "best_value": 537
+    },
+    "538": {
+      "found": true,
+      "restart": 0,
+      "step": 16,
+      "evaluations": 1938,
+      "best_distance": 0,
+      "best_value": 538
+    },
+    "539": {
+      "found": true,
+      "restart": 0,
+      "step": 47,
+      "evaluations": 5695,
+      "best_distance": 0,
+      "best_value": 539
+    },
+    "540": {
+      "found": true,
+      "restart": 0,
+      "step": 24,
+      "evaluations": 2907,
+      "best_distance": 0,
+      "best_value": 540
+    },
+    "541": {
+      "found": true,
+      "restart": 0,
+      "step": 24,
+      "evaluations": 2907,
+      "best_distance": 0,
+      "best_value": 541
+    },
+    "542": {
+      "found": true,
+      "restart": 0,
+      "step": 23,
+      "evaluations": 2786,
+      "best_distance": 0,
+      "best_value": 542
+    },
+    "543": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2179,
+      "best_distance": 0,
+      "best_value": 543
+    },
+    "544": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2179,
+      "best_distance": 0,
+      "best_value": 544
+    },
+    "545": {
+      "found": true,
+      "restart": 0,
+      "step": 37,
+      "evaluations": 4482,
+      "best_distance": 0,
+      "best_value": 545
+    },
+    "546": {
+      "found": true,
+      "restart": 0,
+      "step": 42,
+      "evaluations": 5088,
+      "best_distance": 0,
+      "best_value": 546
+    },
+    "547": {
+      "found": true,
+      "restart": 0,
+      "step": 66,
+      "evaluations": 7996,
+      "best_distance": 0,
+      "best_value": 547
+    },
+    "548": {
+      "found": true,
+      "restart": 0,
+      "step": 36,
+      "evaluations": 4361,
+      "best_distance": 0,
+      "best_value": 548
+    },
+    "549": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 549
+    },
+    "550": {
+      "found": true,
+      "restart": 0,
+      "step": 20,
+      "evaluations": 2421,
+      "best_distance": 0,
+      "best_value": 550
+    },
+    "551": {
+      "found": true,
+      "restart": 0,
+      "step": 12,
+      "evaluations": 1453,
+      "best_distance": 0,
+      "best_value": 551
+    },
+    "552": {
+      "found": true,
+      "restart": 0,
+      "step": 21,
+      "evaluations": 2543,
+      "best_distance": 0,
+      "best_value": 552
+    },
+    "553": {
+      "found": true,
+      "restart": 0,
+      "step": 69,
+      "evaluations": 8359,
+      "best_distance": 0,
+      "best_value": 553
+    },
+    "554": {
+      "found": true,
+      "restart": 0,
+      "step": 36,
+      "evaluations": 4360,
+      "best_distance": 0,
+      "best_value": 554
+    },
+    "555": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1816,
+      "best_distance": 0,
+      "best_value": 555
+    },
+    "556": {
+      "found": true,
+      "restart": 0,
+      "step": 42,
+      "evaluations": 5089,
+      "best_distance": 0,
+      "best_value": 556
+    },
+    "557": {
+      "found": true,
+      "restart": 0,
+      "step": 96,
+      "evaluations": 11635,
+      "best_distance": 0,
+      "best_value": 557
+    },
+    "558": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2179,
+      "best_distance": 0,
+      "best_value": 558
+    },
+    "559": {
+      "found": true,
+      "restart": 0,
+      "step": 42,
+      "evaluations": 5088,
+      "best_distance": 0,
+      "best_value": 559
+    },
+    "560": {
+      "found": true,
+      "restart": 0,
+      "step": 48,
+      "evaluations": 5816,
+      "best_distance": 0,
+      "best_value": 560
+    },
+    "561": {
+      "found": true,
+      "restart": 0,
+      "step": 24,
+      "evaluations": 2907,
+      "best_distance": 0,
+      "best_value": 561
+    },
+    "562": {
+      "found": true,
+      "restart": 0,
+      "step": 41,
+      "evaluations": 4966,
+      "best_distance": 0,
+      "best_value": 562
+    },
+    "563": {
+      "found": true,
+      "restart": 0,
+      "step": 68,
+      "evaluations": 8239,
+      "best_distance": 0,
+      "best_value": 563
+    },
+    "564": {
+      "found": true,
+      "restart": 0,
+      "step": 25,
+      "evaluations": 3028,
+      "best_distance": 0,
+      "best_value": 564
+    },
+    "565": {
+      "found": true,
+      "restart": 1,
+      "step": 23,
+      "evaluations": 19751,
+      "best_distance": 0,
+      "best_value": 565
+    },
+    "566": {
+      "found": true,
+      "restart": 0,
+      "step": 33,
+      "evaluations": 3998,
+      "best_distance": 0,
+      "best_value": 566
+    },
+    "567": {
+      "found": true,
+      "restart": 0,
+      "step": 45,
+      "evaluations": 5452,
+      "best_distance": 0,
+      "best_value": 567
+    },
+    "568": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1816,
+      "best_distance": 0,
+      "best_value": 568
+    },
+    "569": {
+      "found": true,
+      "restart": 0,
+      "step": 47,
+      "evaluations": 5694,
+      "best_distance": 0,
+      "best_value": 569
+    },
+    "570": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 570
+    },
+    "571": {
+      "found": true,
+      "restart": 0,
+      "step": 74,
+      "evaluations": 8967,
+      "best_distance": 0,
+      "best_value": 571
+    },
+    "572": {
+      "found": true,
+      "restart": 0,
+      "step": 16,
+      "evaluations": 1937,
+      "best_distance": 0,
+      "best_value": 572
+    },
+    "573": {
+      "found": true,
+      "restart": 0,
+      "step": 72,
+      "evaluations": 8725,
+      "best_distance": 0,
+      "best_value": 573
+    },
+    "574": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2058,
+      "best_distance": 0,
+      "best_value": 574
+    },
+    "575": {
+      "found": true,
+      "restart": 0,
+      "step": 71,
+      "evaluations": 8604,
+      "best_distance": 0,
+      "best_value": 575
+    },
+    "576": {
+      "found": true,
+      "restart": 0,
+      "step": 34,
+      "evaluations": 4119,
+      "best_distance": 0,
+      "best_value": 576
+    },
+    "577": {
+      "found": true,
+      "restart": 0,
+      "step": 36,
+      "evaluations": 4361,
+      "best_distance": 0,
+      "best_value": 577
+    },
+    "578": {
+      "found": true,
+      "restart": 0,
+      "step": 24,
+      "evaluations": 2906,
+      "best_distance": 0,
+      "best_value": 578
+    },
+    "579": {
+      "found": true,
+      "restart": 0,
+      "step": 43,
+      "evaluations": 5210,
+      "best_distance": 0,
+      "best_value": 579
+    },
+    "580": {
+      "found": true,
+      "restart": 0,
+      "step": 32,
+      "evaluations": 3877,
+      "best_distance": 0,
+      "best_value": 580
+    },
+    "581": {
+      "found": true,
+      "restart": 0,
+      "step": 66,
+      "evaluations": 7998,
+      "best_distance": 0,
+      "best_value": 581
+    },
+    "582": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 582
+    },
+    "583": {
+      "found": true,
+      "restart": 1,
+      "step": 61,
+      "evaluations": 24359,
+      "best_distance": 0,
+      "best_value": 583
+    },
+    "584": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2058,
+      "best_distance": 0,
+      "best_value": 584
+    },
+    "585": {
+      "found": true,
+      "restart": 0,
+      "step": 21,
+      "evaluations": 2543,
+      "best_distance": 0,
+      "best_value": 585
+    },
+    "586": {
+      "found": true,
+      "restart": 0,
+      "step": 19,
+      "evaluations": 2300,
+      "best_distance": 0,
+      "best_value": 586
+    },
+    "587": {
+      "found": true,
+      "restart": 1,
+      "step": 37,
+      "evaluations": 21449,
+      "best_distance": 0,
+      "best_value": 587
+    },
+    "588": {
+      "found": true,
+      "restart": 0,
+      "step": 39,
+      "evaluations": 4724,
+      "best_distance": 0,
+      "best_value": 588
+    },
+    "589": {
+      "found": true,
+      "restart": 0,
+      "step": 16,
+      "evaluations": 1937,
+      "best_distance": 0,
+      "best_value": 589
+    },
+    "590": {
+      "found": true,
+      "restart": 0,
+      "step": 30,
+      "evaluations": 3633,
+      "best_distance": 0,
+      "best_value": 590
+    },
+    "591": {
+      "found": true,
+      "restart": 0,
+      "step": 113,
+      "evaluations": 13693,
+      "best_distance": 0,
+      "best_value": 591
+    },
+    "592": {
+      "found": true,
+      "restart": 0,
+      "step": 28,
+      "evaluations": 3393,
+      "best_distance": 0,
+      "best_value": 592
+    },
+    "593": {
+      "found": true,
+      "restart": 2,
+      "step": 41,
+      "evaluations": 38901,
+      "best_distance": 0,
+      "best_value": 593
+    },
+    "594": {
+      "found": true,
+      "restart": 0,
+      "step": 33,
+      "evaluations": 3998,
+      "best_distance": 0,
+      "best_value": 594
+    },
+    "595": {
+      "found": true,
+      "restart": 0,
+      "step": 50,
+      "evaluations": 6058,
+      "best_distance": 0,
+      "best_value": 595
+    },
+    "596": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2180,
+      "best_distance": 0,
+      "best_value": 596
+    },
+    "597": {
+      "found": true,
+      "restart": 0,
+      "step": 42,
+      "evaluations": 5088,
+      "best_distance": 0,
+      "best_value": 597
+    },
+    "598": {
+      "found": true,
+      "restart": 1,
+      "step": 23,
+      "evaluations": 19752,
+      "best_distance": 0,
+      "best_value": 598
+    },
+    "599": {
+      "found": true,
+      "restart": 0,
+      "step": 61,
+      "evaluations": 7391,
+      "best_distance": 0,
+      "best_value": 599
+    },
+    "600": {
+      "found": true,
+      "restart": 0,
+      "step": 15,
+      "evaluations": 1816,
+      "best_distance": 0,
+      "best_value": 600
+    },
+    "601": {
+      "found": true,
+      "restart": 0,
+      "step": 102,
+      "evaluations": 12361,
+      "best_distance": 0,
+      "best_value": 601
+    },
+    "602": {
+      "found": true,
+      "restart": 1,
+      "step": 25,
+      "evaluations": 19993,
+      "best_distance": 0,
+      "best_value": 602
+    },
+    "603": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2179,
+      "best_distance": 0,
+      "best_value": 603
+    },
+    "604": {
+      "found": true,
+      "restart": 0,
+      "step": 33,
+      "evaluations": 3998,
+      "best_distance": 0,
+      "best_value": 604
+    },
+    "605": {
+      "found": true,
+      "restart": 0,
+      "step": 62,
+      "evaluations": 7512,
+      "best_distance": 0,
+      "best_value": 605
+    },
+    "606": {
+      "found": true,
+      "restart": 0,
+      "step": 73,
+      "evaluations": 8847,
+      "best_distance": 0,
+      "best_value": 606
+    },
+    "607": {
+      "found": true,
+      "restart": 0,
+      "step": 56,
+      "evaluations": 6785,
+      "best_distance": 0,
+      "best_value": 607
+    },
+    "608": {
+      "found": true,
+      "restart": 0,
+      "step": 50,
+      "evaluations": 6059,
+      "best_distance": 0,
+      "best_value": 608
+    },
+    "609": {
+      "found": true,
+      "restart": 0,
+      "step": 123,
+      "evaluations": 14907,
+      "best_distance": 0,
+      "best_value": 609
+    },
+    "610": {
+      "found": true,
+      "restart": 0,
+      "step": 35,
+      "evaluations": 4239,
+      "best_distance": 0,
+      "best_value": 610
+    },
+    "611": {
+      "found": true,
+      "restart": 0,
+      "step": 51,
+      "evaluations": 6179,
+      "best_distance": 0,
+      "best_value": 611
+    },
+    "612": {
+      "found": true,
+      "restart": 0,
+      "step": 11,
+      "evaluations": 1332,
+      "best_distance": 0,
+      "best_value": 612
+    },
+    "613": {
+      "found": true,
+      "restart": 0,
+      "step": 103,
+      "evaluations": 12481,
+      "best_distance": 0,
+      "best_value": 613
+    },
+    "614": {
+      "found": true,
+      "restart": 0,
+      "step": 125,
+      "evaluations": 15148,
+      "best_distance": 0,
+      "best_value": 614
+    },
+    "615": {
+      "found": true,
+      "restart": 0,
+      "step": 132,
+      "evaluations": 15998,
+      "best_distance": 0,
+      "best_value": 615
+    },
+    "616": {
+      "found": true,
+      "restart": 0,
+      "step": 55,
+      "evaluations": 6664,
+      "best_distance": 0,
+      "best_value": 616
+    },
+    "617": {
+      "found": true,
+      "restart": 0,
+      "step": 92,
+      "evaluations": 11147,
+      "best_distance": 0,
+      "best_value": 617
+    },
+    "618": {
+      "found": true,
+      "restart": 0,
+      "step": 41,
+      "evaluations": 4968,
+      "best_distance": 0,
+      "best_value": 618
+    },
+    "619": {
+      "found": true,
+      "restart": 1,
+      "step": 31,
+      "evaluations": 20722,
+      "best_distance": 0,
+      "best_value": 619
+    },
+    "620": {
+      "found": true,
+      "restart": 0,
+      "step": 21,
+      "evaluations": 2543,
+      "best_distance": 0,
+      "best_value": 620
+    },
+    "621": {
+      "found": true,
+      "restart": 0,
+      "step": 28,
+      "evaluations": 3392,
+      "best_distance": 0,
+      "best_value": 621
+    },
+    "622": {
+      "found": true,
+      "restart": 0,
+      "step": 21,
+      "evaluations": 2544,
+      "best_distance": 0,
+      "best_value": 622
+    },
+    "623": {
+      "found": true,
+      "restart": 1,
+      "step": 49,
+      "evaluations": 22902,
+      "best_distance": 0,
+      "best_value": 623
+    },
+    "624": {
+      "found": true,
+      "restart": 0,
+      "step": 25,
+      "evaluations": 3028,
+      "best_distance": 0,
+      "best_value": 624
+    },
+    "625": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2179,
+      "best_distance": 0,
+      "best_value": 625
+    },
+    "626": {
+      "found": true,
+      "restart": 0,
+      "step": 93,
+      "evaluations": 11272,
+      "best_distance": 0,
+      "best_value": 626
+    },
+    "627": {
+      "found": true,
+      "restart": 1,
+      "step": 26,
+      "evaluations": 20115,
+      "best_distance": 0,
+      "best_value": 627
+    },
+    "628": {
+      "found": true,
+      "restart": 0,
+      "step": 22,
+      "evaluations": 2663,
+      "best_distance": 0,
+      "best_value": 628
+    },
+    "629": {
+      "found": true,
+      "restart": 0,
+      "step": 116,
+      "evaluations": 14057,
+      "best_distance": 0,
+      "best_value": 629
+    },
+    "630": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2179,
+      "best_distance": 0,
+      "best_value": 630
+    },
+    "631": {
+      "found": true,
+      "restart": 0,
+      "step": 79,
+      "evaluations": 9571,
+      "best_distance": 0,
+      "best_value": 631
+    },
+    "632": {
+      "found": true,
+      "restart": 0,
+      "step": 23,
+      "evaluations": 2784,
+      "best_distance": 0,
+      "best_value": 632
+    },
+    "633": {
+      "found": true,
+      "restart": 0,
+      "step": 41,
+      "evaluations": 4966,
+      "best_distance": 0,
+      "best_value": 633
+    },
+    "634": {
+      "found": true,
+      "restart": 0,
+      "step": 23,
+      "evaluations": 2785,
+      "best_distance": 0,
+      "best_value": 634
+    },
+    "635": {
+      "found": true,
+      "restart": 0,
+      "step": 123,
+      "evaluations": 14907,
+      "best_distance": 0,
+      "best_value": 635
+    },
+    "636": {
+      "found": true,
+      "restart": 0,
+      "step": 30,
+      "evaluations": 3634,
+      "best_distance": 0,
+      "best_value": 636
+    },
+    "637": {
+      "found": true,
+      "restart": 0,
+      "step": 91,
+      "evaluations": 11026,
+      "best_distance": 0,
+      "best_value": 637
+    },
+    "638": {
+      "found": true,
+      "restart": 0,
+      "step": 119,
+      "evaluations": 14421,
+      "best_distance": 0,
+      "best_value": 638
+    },
+    "639": {
+      "found": true,
+      "restart": 0,
+      "step": 44,
+      "evaluations": 5331,
+      "best_distance": 0,
+      "best_value": 639
+    },
+    "640": {
+      "found": true,
+      "restart": 0,
+      "step": 16,
+      "evaluations": 1937,
+      "best_distance": 0,
+      "best_value": 640
+    },
+    "641": {
+      "found": true,
+      "restart": 1,
+      "step": 74,
+      "evaluations": 25936,
+      "best_distance": 0,
+      "best_value": 641
+    },
+    "642": {
+      "found": true,
+      "restart": 0,
+      "step": 34,
+      "evaluations": 4118,
+      "best_distance": 0,
+      "best_value": 642
+    },
+    "643": {
+      "found": true,
+      "restart": 0,
+      "step": 52,
+      "evaluations": 6299,
+      "best_distance": 0,
+      "best_value": 643
+    },
+    "644": {
+      "found": true,
+      "restart": 0,
+      "step": 19,
+      "evaluations": 2300,
+      "best_distance": 0,
+      "best_value": 644
+    },
+    "645": {
+      "found": true,
+      "restart": 0,
+      "step": 72,
+      "evaluations": 8724,
+      "best_distance": 0,
+      "best_value": 645
+    },
+    "646": {
+      "found": true,
+      "restart": 0,
+      "step": 20,
+      "evaluations": 2421,
+      "best_distance": 0,
+      "best_value": 646
+    },
+    "647": {
+      "found": true,
+      "restart": 2,
+      "step": 123,
+      "evaluations": 48839,
+      "best_distance": 0,
+      "best_value": 647
+    },
+    "648": {
+      "found": true,
+      "restart": 0,
+      "step": 41,
+      "evaluations": 4966,
+      "best_distance": 0,
+      "best_value": 648
+    },
+    "649": {
+      "found": true,
+      "restart": 1,
+      "step": 111,
+      "evaluations": 30417,
+      "best_distance": 0,
+      "best_value": 649
+    },
+    "650": {
+      "found": true,
+      "restart": 0,
+      "step": 47,
+      "evaluations": 5693,
+      "best_distance": 0,
+      "best_value": 650
+    },
+    "651": {
+      "found": true,
+      "restart": 0,
+      "step": 71,
+      "evaluations": 8601,
+      "best_distance": 0,
+      "best_value": 651
+    },
+    "652": {
+      "found": true,
+      "restart": 0,
+      "step": 60,
+      "evaluations": 7270,
+      "best_distance": 0,
+      "best_value": 652
+    },
+    "653": {
+      "found": true,
+      "restart": 0,
+      "step": 83,
+      "evaluations": 10058,
+      "best_distance": 0,
+      "best_value": 653
+    },
+    "654": {
+      "found": true,
+      "restart": 0,
+      "step": 73,
+      "evaluations": 8845,
+      "best_distance": 0,
+      "best_value": 654
+    },
+    "655": {
+      "found": true,
+      "restart": 0,
+      "step": 135,
+      "evaluations": 16359,
+      "best_distance": 0,
+      "best_value": 655
+    },
+    "656": {
+      "found": true,
+      "restart": 0,
+      "step": 44,
+      "evaluations": 5330,
+      "best_distance": 0,
+      "best_value": 656
+    },
+    "657": {
+      "found": true,
+      "restart": 0,
+      "step": 64,
+      "evaluations": 7755,
+      "best_distance": 0,
+      "best_value": 657
+    },
+    "658": {
+      "found": true,
+      "restart": 0,
+      "step": 49,
+      "evaluations": 5936,
+      "best_distance": 0,
+      "best_value": 658
+    },
+    "659": {
+      "found": true,
+      "restart": 4,
+      "step": 53,
+      "evaluations": 74284,
+      "best_distance": 0,
+      "best_value": 659
+    },
+    "660": {
+      "found": true,
+      "restart": 0,
+      "step": 39,
+      "evaluations": 4724,
+      "best_distance": 0,
+      "best_value": 660
+    },
+    "661": {
+      "found": true,
+      "restart": 0,
+      "step": 136,
+      "evaluations": 16479,
+      "best_distance": 0,
+      "best_value": 661
+    },
+    "662": {
+      "found": true,
+      "restart": 0,
+      "step": 78,
+      "evaluations": 9451,
+      "best_distance": 0,
+      "best_value": 662
+    },
+    "663": {
+      "found": true,
+      "restart": 0,
+      "step": 35,
+      "evaluations": 4239,
+      "best_distance": 0,
+      "best_value": 663
+    },
+    "664": {
+      "found": true,
+      "restart": 0,
+      "step": 49,
+      "evaluations": 5937,
+      "best_distance": 0,
+      "best_value": 664
+    },
+    "665": {
+      "found": true,
+      "restart": 0,
+      "step": 67,
+      "evaluations": 8118,
+      "best_distance": 0,
+      "best_value": 665
+    },
+    "666": {
+      "found": true,
+      "restart": 0,
+      "step": 106,
+      "evaluations": 12844,
+      "best_distance": 0,
+      "best_value": 666
+    },
+    "667": {
+      "found": true,
+      "restart": 1,
+      "step": 27,
+      "evaluations": 20236,
+      "best_distance": 0,
+      "best_value": 667
+    },
+    "668": {
+      "found": true,
+      "restart": 0,
+      "step": 35,
+      "evaluations": 4240,
+      "best_distance": 0,
+      "best_value": 668
+    },
+    "669": {
+      "found": true,
+      "restart": 0,
+      "step": 64,
+      "evaluations": 7755,
+      "best_distance": 0,
+      "best_value": 669
+    },
+    "670": {
+      "found": true,
+      "restart": 0,
+      "step": 57,
+      "evaluations": 6905,
+      "best_distance": 0,
+      "best_value": 670
+    },
+    "671": {
+      "found": true,
+      "restart": 1,
+      "step": 89,
+      "evaluations": 27750,
+      "best_distance": 0,
+      "best_value": 671
+    },
+    "672": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2179,
+      "best_distance": 0,
+      "best_value": 672
+    },
+    "673": {
+      "found": true,
+      "restart": 0,
+      "step": 128,
+      "evaluations": 15511,
+      "best_distance": 0,
+      "best_value": 673
+    },
+    "674": {
+      "found": true,
+      "restart": 0,
+      "step": 71,
+      "evaluations": 8602,
+      "best_distance": 0,
+      "best_value": 674
+    },
+    "675": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2058,
+      "best_distance": 0,
+      "best_value": 675
+    },
+    "676": {
+      "found": true,
+      "restart": 1,
+      "step": 32,
+      "evaluations": 20839,
+      "best_distance": 0,
+      "best_value": 676
+    },
+    "677": {
+      "found": true,
+      "restart": 0,
+      "step": 19,
+      "evaluations": 2300,
+      "best_distance": 0,
+      "best_value": 677
+    },
+    "678": {
+      "found": true,
+      "restart": 0,
+      "step": 38,
+      "evaluations": 4603,
+      "best_distance": 0,
+      "best_value": 678
+    },
+    "679": {
+      "found": true,
+      "restart": 0,
+      "step": 80,
+      "evaluations": 9694,
+      "best_distance": 0,
+      "best_value": 679
+    },
+    "680": {
+      "found": true,
+      "restart": 0,
+      "step": 134,
+      "evaluations": 16236,
+      "best_distance": 0,
+      "best_value": 680
+    },
+    "681": {
+      "found": true,
+      "restart": 0,
+      "step": 48,
+      "evaluations": 5814,
+      "best_distance": 0,
+      "best_value": 681
+    },
+    "682": {
+      "found": true,
+      "restart": 0,
+      "step": 130,
+      "evaluations": 15754,
+      "best_distance": 0,
+      "best_value": 682
+    },
+    "683": {
+      "found": true,
+      "restart": 0,
+      "step": 51,
+      "evaluations": 6178,
+      "best_distance": 0,
+      "best_value": 683
+    },
+    "684": {
+      "found": true,
+      "restart": 0,
+      "step": 17,
+      "evaluations": 2058,
+      "best_distance": 0,
+      "best_value": 684
+    },
+    "685": {
+      "found": true,
+      "restart": 1,
+      "step": 119,
+      "evaluations": 31387,
+      "best_distance": 0,
+      "best_value": 685
+    },
+    "686": {
+      "found": true,
+      "restart": 0,
+      "step": 25,
+      "evaluations": 3027,
+      "best_distance": 0,
+      "best_value": 686
+    },
+    "687": {
+      "found": true,
+      "restart": 0,
+      "step": 89,
+      "evaluations": 10785,
+      "best_distance": 0,
+      "best_value": 687
+    },
+    "688": {
+      "found": true,
+      "restart": 0,
+      "step": 105,
+      "evaluations": 12724,
+      "best_distance": 0,
+      "best_value": 688
+    },
+    "689": {
+      "found": true,
+      "restart": 0,
+      "step": 90,
+      "evaluations": 10906,
+      "best_distance": 0,
+      "best_value": 689
+    },
+    "690": {
+      "found": true,
+      "restart": 0,
+      "step": 74,
+      "evaluations": 8967,
+      "best_distance": 0,
+      "best_value": 690
+    },
+    "691": {
+      "found": true,
+      "restart": 1,
+      "step": 110,
+      "evaluations": 30295,
+      "best_distance": 0,
+      "best_value": 691
+    },
+    "692": {
+      "found": true,
+      "restart": 0,
+      "step": 43,
+      "evaluations": 5209,
+      "best_distance": 0,
+      "best_value": 692
+    },
+    "693": {
+      "found": true,
+      "restart": 0,
+      "step": 51,
+      "evaluations": 6179,
+      "best_distance": 0,
+      "best_value": 693
+    },
+    "694": {
+      "found": true,
+      "restart": 0,
+      "step": 58,
+      "evaluations": 7028,
+      "best_distance": 0,
+      "best_value": 694
+    },
+    "695": {
+      "found": true,
+      "restart": 0,
+      "step": 82,
+      "evaluations": 9935,
+      "best_distance": 0,
+      "best_value": 695
+    },
+    "696": {
+      "found": true,
+      "restart": 0,
+      "step": 59,
+      "evaluations": 7148,
+      "best_distance": 0,
+      "best_value": 696
+    },
+    "697": {
+      "found": true,
+      "restart": 0,
+      "step": 139,
+      "evaluations": 16843,
+      "best_distance": 0,
+      "best_value": 697
+    },
+    "698": {
+      "found": true,
+      "restart": 0,
+      "step": 31,
+      "evaluations": 3754,
+      "best_distance": 0,
+      "best_value": 698
+    },
+    "699": {
+      "found": true,
+      "restart": 0,
+      "step": 72,
+      "evaluations": 8723,
+      "best_distance": 0,
+      "best_value": 699
+    },
+    "700": {
+      "found": true,
+      "restart": 0,
+      "step": 121,
+      "evaluations": 14665,
+      "best_distance": 0,
+      "best_value": 700
+    },
+    "701": {
+      "found": true,
+      "restart": 1,
+      "step": 106,
+      "evaluations": 29810,
+      "best_distance": 0,
+      "best_value": 701
+    },
+    "702": {
+      "found": true,
+      "restart": 0,
+      "step": 20,
+      "evaluations": 2421,
+      "best_distance": 0,
+      "best_value": 702
+    },
+    "703": {
+      "found": true,
+      "restart": 1,
+      "step": 56,
+      "evaluations": 23752,
+      "best_distance": 0,
+      "best_value": 703
+    },
+    "704": {
+      "found": true,
+      "restart": 0,
+      "step": 14,
+      "evaluations": 1695,
+      "best_distance": 0,
+      "best_value": 704
+    },
+    "705": {
+      "found": true,
+      "restart": 0,
+      "step": 56,
+      "evaluations": 6785,
+      "best_distance": 0,
+      "best_value": 705
+    },
+    "706": {
+      "found": true,
+      "restart": 0,
+      "step": 30,
+      "evaluations": 3634,
+      "best_distance": 0,
+      "best_value": 706
+    },
+    "707": {
+      "found": true,
+      "restart": 0,
+      "step": 44,
+      "evaluations": 5330,
+      "best_distance": 0,
+      "best_value": 707
+    },
+    "708": {
+      "found": true,
+      "restart": 0,
+      "step": 27,
+      "evaluations": 3270,
+      "best_distance": 0,
+      "best_value": 708
+    },
+    "709": {
+      "found": true,
+      "restart": 2,
+      "step": 87,
+      "evaluations": 44474,
+      "best_distance": 0,
+      "best_value": 709
+    },
+    "710": {
+      "found": true,
+      "restart": 0,
+      "step": 76,
+      "evaluations": 9209,
+      "best_distance": 0,
+      "best_value": 710
+    },
+    "711": {
+      "found": true,
+      "restart": 0,
+      "step": 94,
+      "evaluations": 11390,
+      "best_distance": 0,
+      "best_value": 711
+    },
+    "712": {
+      "found": true,
+      "restart": 0,
+      "step": 91,
+      "evaluations": 11026,
+      "best_distance": 0,
+      "best_value": 712
+    },
+    "713": {
+      "found": true,
+      "restart": 0,
+      "step": 68,
+      "evaluations": 8238,
+      "best_distance": 0,
+      "best_value": 713
+    },
+    "714": {
+      "found": true,
+      "restart": 0,
+      "step": 20,
+      "evaluations": 2422,
+      "best_distance": 0,
+      "best_value": 714
+    },
+    "715": {
+      "found": true,
+      "restart": 1,
+      "step": 27,
+      "evaluations": 20235,
+      "best_distance": 0,
+      "best_value": 715
+    },
+    "716": {
+      "found": true,
+      "restart": 0,
+      "step": 51,
+      "evaluations": 6178,
+      "best_distance": 0,
+      "best_value": 716
+    },
+    "717": {
+      "found": true,
+      "restart": 0,
+      "step": 121,
+      "evaluations": 14663,
+      "best_distance": 0,
+      "best_value": 717
+    },
+    "718": {
+      "found": true,
+      "restart": 0,
+      "step": 73,
+      "evaluations": 8844,
+      "best_distance": 0,
+      "best_value": 718
+    },
+    "719": {
+      "found": true,
+      "restart": 1,
+      "step": 35,
+      "evaluations": 21206,
+      "best_distance": 0,
+      "best_value": 719
+    },
+    "720": {
+      "found": true,
+      "restart": 0,
+      "step": 94,
+      "evaluations": 11391,
+      "best_distance": 0,
+      "best_value": 720
+    },
+    "721": {
+      "found": true,
+      "restart": 2,
+      "step": 47,
+      "evaluations": 39625,
+      "best_distance": 0,
+      "best_value": 721
+    },
+    "722": {
+      "found": true,
+      "restart": 0,
+      "step": 20,
+      "evaluations": 2421,
+      "best_distance": 0,
+      "best_value": 722
+    },
+    "723": {
+      "found": true,
+      "restart": 0,
+      "step": 89,
+      "evaluations": 10784,
+      "best_distance": 0,
+      "best_value": 723
+    },
+    "724": {
+      "found": true,
+      "restart": 0,
+      "step": 32,
+      "evaluations": 3875,
+      "best_distance": 0,
+      "best_value": 724
+    },
+    "725": {
+      "found": true,
+      "restart": 0,
+      "step": 18,
+      "evaluations": 2181,
+      "best_distance": 0,
+      "best_value": 725
+    },
+    "726": {
+      "found": true,
+      "restart": 0,
+      "step": 23,
+      "evaluations": 2785,
+      "best_distance": 0,
+      "best_value": 726
+    },
+    "727": {
+      "found": true,
+      "restart": 2,
+      "step": 73,
+      "evaluations": 42774,
+      "best_distance": 0,
+      "best_value": 727
+    },
+    "728": {
+      "found": true,
+      "restart": 0,
+      "step": 34,
+      "evaluations": 4117,
+      "best_distance": 0,
+      "best_value": 728
+    },
+    "729": {
+      "found": true,
+      "restart": 0,
+      "step": 48,
+      "evaluations": 5814,
+      "best_distance": 0,
+      "best_value": 729
+    },
+    "730": {
+      "found": true,
+      "restart": 1,
+      "step": 46,
+      "evaluations": 22540,
+      "best_distance": 0,
+      "best_value": 730
+    },
+    "731": {
+      "found": true,
+      "restart": 1,
+      "step": 119,
+      "evaluations": 31387,
+      "best_distance": 0,
+      "best_value": 731
+    },
+    "732": {
+      "found": true,
+      "restart": 0,
+      "step": 61,
+      "evaluations": 7390,
+      "best_distance": 0,
+      "best_value": 732
+    },
+    "733": {
+      "found": true,
+      "restart": 0,
+      "step": 96,
+      "evaluations": 11631,
+      "best_distance": 0,
+      "best_value": 733
+    },
+    "734": {
+      "found": true,
+      "restart": 1,
+      "step": 134,
+      "evaluations": 33203,
+      "best_distance": 0,
+      "best_value": 734
+    },
+    "735": {
+      "found": true,
+      "restart": 0,
+      "step": 20,
+      "evaluations": 2421,
+      "best_distance": 0,
+      "best_value": 735
+    },
+    "736": {
+      "found": true,
+      "restart": 2,
+      "step": 113,
+      "evaluations": 47624,
+      "best_distance": 0,
+      "best_value": 736
+    },
+    "737": {
+      "found": true,
+      "restart": 1,
+      "step": 129,
+      "evaluations": 32596,
+      "best_distance": 0,
+      "best_value": 737
+    },
+    "738": {
+      "found": true,
+      "restart": 0,
+      "step": 78,
+      "evaluations": 9450,
+      "best_distance": 0,
+      "best_value": 738
+    }
+  },
+  "all_reported_witnesses_verified": true,
+  "elapsed_seconds": 10.354463166091591
+}
